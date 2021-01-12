@@ -1,0 +1,100 @@
+.user-show{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 50px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.edit-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-button{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.user-name{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.user-extra-info{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.user-info-footer{
+    margin-top: 20px;
+    display: flex;
+}
+
+.extra-info-item{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.interest-tags-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest-tag{
+    background-color: rgba(144, 238, 218, 0.507);
+    width: fit-content;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: rgb(58, 124, 110);
+    border-radius: 5px;
+}
+
+.extra-info-heading{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.extra-info-item-left{
+    width: 10%;
+}
+
+.extra-info-item-right{
+    width: 90%;
+}
+
+.user-bio{
+    line-height: 1.5;
+}
+
+.user-info-footer-item{
+    margin-right: 10px;
+}
+
+.user-show-bg{
+    background-color: rgb(243, 240, 235);
+}
+
+.home-link{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
