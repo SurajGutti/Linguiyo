@@ -88,3 +88,13 @@
 .user-info-footer-item{
     margin-right: 10px;
 }
+
+.user-show-bg{
+    background-color: rgb(243, 240, 235);
+}
+
+.home-link{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
