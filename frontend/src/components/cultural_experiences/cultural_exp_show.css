@@ -1,0 +1,59 @@
+.about-section{
+    background-color: rgb(243, 240, 235);
+    height: 45em;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-teacher-section{
+    display: flex;
+    height: 45em;
+    width: 100%;
+}
+
+.cultxp-teacher-image{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.cultxp-teacher-bio-container{
+    background-color: salmon;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.cultxp-teacher-bio{
+    margin: auto;
+}
+
+.cultxp-extra-info-wrapper{
+    background-color: rgb(243, 240, 235);
+    height: 45em;
+    padding: 0px 400px;
+}
+
+.cultxp-extra-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.cultxp-extra-info-left{
+    width: 30%;
+}
+
+.cultxp-extra-info-right{
+    width: 70%;
+}
