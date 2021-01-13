@@ -12,39 +12,4 @@ code {
     monospace;
 }
 
-/* Help Grid */
-
-.container h2{
-  font-family: Arial, Helvetica, sans-serif;
-  color: #747474;
-}
-
-#help-grid .col-md{
-  border: 1px solid lightgray;
-  padding: 5rem;
-  margin: 1rem;
-  border-radius: 5px;
-  text-align: center;
-  color: #606060;
-  font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 1px 2px #D4D4D5;
-}
-
-
-#help-grid .col-md p{
-  font-size: smaller;
-}
-
-
-#help-grid a:hover{
-  text-decoration: none;
-}
-
-.icons {
-  display: block;
-  margin: auto;
-  padding-bottom: 1rem;
-  height: 5rem;
-}
-
 
