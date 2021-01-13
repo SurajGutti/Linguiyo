@@ -11,7 +11,10 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <p>Basic Footer</p>
+                <ul>
+                    <li>Basic Footer</li>
+                    <li><Link to="/help">Help</Link></li>
+                </ul>
             </footer>
         )
     }

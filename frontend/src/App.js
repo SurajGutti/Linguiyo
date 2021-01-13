@@ -10,9 +10,6 @@ import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path="/help" component={HelpPage} />
-      {/* use a wildcard below - /users/:id */}
-      <Route exact path="/users/priya" component={UserShow} />
       <Navbar />
       <Route exact path="/" component={HomePage} />
       <Route exact path="/help" component={HelpPage} />
