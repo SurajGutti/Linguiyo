@@ -18,28 +18,40 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+.wrapper{
+	display:grid;
 }
-body {
-	line-height: 1;
-	background-color: rgb(243, 240, 235);
+
+.slides{
+	height: 45em;
+	text-align: center;
+	line-height: 45;
 }
-ol, ul {
-	list-style: none;
+
+.video{
+	height: 30em;
+	text-align: center;
+	line-height: 30;
 }
-blockquote, q {
-	quotes: none;
+
+.explore{
+	height: 30em;
+	text-align: center;
+	line-height: 30;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.about{
+	height: 50em;
+	text-align: center;
+	line-height: 30;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.wrapper > div{
+	background: rgb(250, 249, 249);
+}
+
+.wrapper > div:nth-child(odd){
+	background: #ddd;
 }
 
