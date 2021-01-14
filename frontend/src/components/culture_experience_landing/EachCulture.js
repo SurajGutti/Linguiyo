@@ -16,11 +16,11 @@ function EachCulture({ title, description, price }) {
                     <h4 className="text-center culture_title mt-3">
                         {title}
                     </h4>
-                    <p className="text-center price">${price}</p>
+                    <p className="text-center price my-2">${price}</p>
                     <p className="text-center culture_description">{description}</p>
                     <div className="row d-flex justify-content-center">
-                        <div className="btn btn-light">
-                            Book More
+                        <div className="btn btn-light mt-2">
+                            Read More
                          </div>
                     </div>
                 </div>
