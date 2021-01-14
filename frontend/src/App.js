@@ -20,7 +20,7 @@ function App() {
       {/* use a wildcard below - /cultural-experiences/:exp-id */}
       <Route exact path="/cultural-experiences/1" component={CulturalExpShow} />
       {/* The initial cultural-experience page  */}
-      <Route exact patrh="/cultural-experience-land" component={CulturalExperience}/>
+      <Route exact path="/cultural-experience-land" component={CulturalExperience}/>
       <Footer />
     </BrowserRouter >
   );
