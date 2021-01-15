@@ -1,0 +1,115 @@
+.about-section{
+    background-color: rgb(243, 240, 235);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.about-teacher-section{
+    display: flex;
+    width: 100%;
+    background-color: salmon;
+}
+
+.cultxp-teacher-image{
+    width: 50%;
+    object-fit: cover;
+}
+
+.cultxp-teacher-bio-container{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cultxp-teacher-title{
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    font-size: 28px;
+}
+
+.cultxp-teacher-bio{
+    width: 100%;
+    text-align: center;
+    margin: 20px 25%;
+    line-height: 2;
+    font-size: 22px;
+}
+
+.cultxp-extra-info-wrapper{
+    background-color: rgb(243, 240, 235);
+    padding: 0px 400px;
+}
+
+.cultxp-extra-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.cultxp-extra-info-left{
+    width: 30%;
+}
+
+.cultxp-extra-info-right{
+    width: 70%;
+}
+
+.cultexp-title{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    color: salmon;
+    margin: 30px 0px;
+}
+
+.cultexp-price{
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+}
+
+.book-now-btn{
+    margin: auto;
+    background-color: salmon;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cultexp-description{
+    width: 100%;
+    margin: 20px 20%; 
+    text-align: center;
+    line-height: 2;
+}
+
+.book-now-btn-teacher-bio{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.book-now-btn-teacher-bio:hover{
+    background-color: rgb(50, 97, 81)
+}
