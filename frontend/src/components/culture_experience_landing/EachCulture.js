@@ -1,9 +1,9 @@
 import React from 'react'
 
-function EachCulture({ title, description, price }) {
+function EachCulture({ title, description, price, image }) {
     return (
         <div className=" col-md-3 col-xs-10 m-2">
-            <div className="cultural_image_container">
+            <div style={{backgroundImage:`url('${image}')`}} className="cultural_image_container">
                 <div className="row d-flex justify-content-center btn_cont">
                     <div className="btn btn-success">
                         Book Now
