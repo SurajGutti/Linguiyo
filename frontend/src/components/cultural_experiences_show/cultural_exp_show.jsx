@@ -1,6 +1,12 @@
 import React from 'react';
-import TeacherImage from './cultural_experiences_show_assets/5.jpg';
-import './cultural_exp_show.css'
+import Image1 from './assets/1.JPG';
+import Image2 from './assets/2.jpg';
+import Image3 from './assets/3.jpeg';
+import Image4 from './assets/4.JPG';
+import Image6 from './assets/6.jpg';
+import Image7 from './assets/7.png';
+import TeacherImage from './assets/5.jpg';
+import './cultural_exp_show.css';
 
 class CulturalExpShow extends React.Component{
     constructor(props){
@@ -15,7 +21,15 @@ class CulturalExpShow extends React.Component{
                     <div className="cultexp-price">30 min. | $45</div>
                     <div className="book-now-btn">Book Now</div>
                     <div className="carousel">
-                        Carousel
+                        <div className="slider">
+                            <img src={Image1} className="slide" id="slide-1"></img>
+                            <img src={Image2} className="slide" id="slide-2"></img>
+                            <img src={Image3} className="slide" id="slide-3"></img>
+                            <img src={Image4} className="slide" id="slide-4"></img>
+                            <img src={TeacherImage} className="slide" id="slide-5"></img>
+                            <img src={Image6} className="slide" id="slide-6"></img>
+                            <img src={Image7} className="slide" id="slide-7"></img>
+                        </div>
                     </div>
                     <div className="cultexp-description">Turkish coffee fortune 
                     reading is an authentic tradition dating back to the Ottoman 
