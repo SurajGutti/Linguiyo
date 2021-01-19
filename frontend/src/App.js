@@ -9,6 +9,7 @@ import Footer from './components/footer/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
 import CulturalExperience from './components/culture_experience_landing/CulturalExperience';
 import LangCourse from './components/languagecourses/langcourse';
+import PostSingle from './components/blog_post/PostSingle';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Route exact path="/cultural-experience-land" component={CulturalExperience}/>
       {/*  language course page  1 */}
       <Route exact path="/language-courses/1" component={LangCourse}/>
+      {/* use a wildcard below - /posts/:post-id */}
+      <Route exact path="/posts/1" component={PostSingle} />
       <Footer />
     </BrowserRouter >
   );
