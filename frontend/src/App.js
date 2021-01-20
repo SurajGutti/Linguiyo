@@ -11,6 +11,7 @@ import CulturalExperience from './components/culture_experience_landing/Cultural
 import LangCourse from './components/languagecourses/langcourse';
 import PostSingle from './components/blog_post/PostSingle';
 import HubPage from './components/the_hub/hub_page';
+import SecondCultShowPage from './components/cultural_experiences_show/2nd_show_page';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route exact path="/users/priya" component={UserShow} />
       {/* use a wildcard below - /cultural-experiences/:exp-id */}
       <Route exact path="/cultural-experiences/1" component={CulturalExpShow} />
+      <Route exact path="/cultural-experiences/2" component={SecondCultShowPage} />
       {/* The initial cultural-experience page  */}
       <Route exact path="/cultural-experience-land" component={CulturalExperience} />
       {/*  language course page  1 */}

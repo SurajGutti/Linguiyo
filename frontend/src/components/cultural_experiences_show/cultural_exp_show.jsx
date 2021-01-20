@@ -18,7 +18,7 @@ class CulturalExpShow extends React.Component{
             <div>
                 <div className="about-section">
                     <div className="cultexp-title">Turkish Coffee Fortune Reading</div>
-                    <div className="cultexp-price">Online Experience Hosted by Ulec</div>
+                    <div className="cultexp-price">Online Experience Hosted by Ulec!</div>
                     <div className="cultexp-description">Turkish coffee fortune
                     reading is an authentic tradition dating back to the Ottoman
                     empire of the 1600s. After drinking this sweet, espresso-like coffee,
