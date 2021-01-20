@@ -2,10 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import vietnam from './images/vietnam.jpg'
-import './hub_page_style.css'
+import korea from './images/korea.jpg'
+import punjabi from './images/punjabi.jpg'
+import china from './images/china.jpg'
+import english from './images/english.jpg'
+import france from './images/france.jpg'
+import german from './images/german.jpg'
+import hindi from './images/hindi.jpg'
+import italy from './images/italy.jpg'
+import japan from './images/japan.jpg'
+import languages from './images/japan.jpg'
+import learning from './images/learning.jpg'
+import portugal from './images/portugal.jpg'
+import russia from './images/russia.jpg'
+import turkey from './images/turkey.jpg'
 import logo from './images/logo.png'
-import 'font-awesome/css/font-awesome.min.css';
 import ReactPlayer from "react-player"
+import './hub_page_style.css'
+import 'font-awesome/css/font-awesome.min.css';
 
 class HubPage extends React.Component {
     render() {
@@ -103,7 +117,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={korea} alt="kimchi" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -129,7 +143,9 @@ class HubPage extends React.Component {
                                         <h5>13 Views</h5>
                                         <h5 className="pl-4">0 comments</h5>
                                         <div className="heart">
-                                            <i className="fa fa-heart" aria-hidden="true"></i>
+                                            <span>
+                                                1{'  '}<i className="fa fa-heart" aria-hidden="true"></i>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +157,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={punjabi} alt="punjabi" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -178,7 +194,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={portugal} alt="portugal" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -215,7 +231,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={japan} alt="japan" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -252,7 +268,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={german} alt="german" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -277,7 +293,9 @@ class HubPage extends React.Component {
                                         <h5>13 Views</h5>
                                         <h5 className="pl-4">0 comments</h5>
                                         <div className="heart">
-                                            <i className="fa fa-heart" aria-hidden="true"></i>
+                                            <span>
+                                                2{'  '}<i className="fa fa-heart" aria-hidden="true"></i>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +307,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={russia} alt="russia" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -326,7 +344,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={italy} alt="italy" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -351,7 +369,9 @@ class HubPage extends React.Component {
                                         <h5>13 Views</h5>
                                         <h5 className="pl-4">0 comments</h5>
                                         <div className="heart">
-                                            <i className="fa fa-heart" aria-hidden="true"></i>
+                                            <span>
+                                                1{'  '}<i className="fa fa-heart" aria-hidden="true"></i>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +383,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={france} alt="france" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -400,7 +420,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={english} alt="english" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -437,7 +457,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={china} alt="china" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -474,7 +494,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={turkey} alt="turkey" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -514,7 +534,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={hindi} alt="hindi" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -551,7 +571,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={learning} alt="learning" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
@@ -588,7 +608,7 @@ class HubPage extends React.Component {
                     <div className="blog-content">
                         <div className="row outline">
                             <div className="col-md">
-                                <img className="left-img" src={vietnam} alt="vietnam" />
+                                <img className="left-img" src={languages} alt="languages" />
                             </div>
                             <div className="col-md">
                                 <div className="creator">
