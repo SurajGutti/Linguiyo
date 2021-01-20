@@ -6,7 +6,7 @@
 }
 
 .hub-background{
-    background: url('https://cdn-v2.asla.org/uploadedImages/CMS/Shop/Bookstore/books.jpg');
+    background: #2A343D;
     min-height: 100vh;
     background-size: cover;
     padding: 0 160px !important;
