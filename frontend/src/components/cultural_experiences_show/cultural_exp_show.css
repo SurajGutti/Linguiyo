@@ -1,5 +1,4 @@
 .about-section{
-    background-color: rgb(243, 240, 235);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -17,11 +16,12 @@
     display: flex;
     width: 100%;
     background-color: salmon;
+    margin: 0px 40px;
 }
 
 .cultxp-teacher-image{
     width: 50%;
-    object-fit: cover;
+    background-color: white;
 }
 
 .cultxp-teacher-bio-container{
@@ -61,6 +61,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 50px 0px;
+    border-bottom: 1px solid black;
 }
 
 .cultxp-extra-info-left{
@@ -127,4 +128,15 @@
   flex-shrink: 0;
   height: 100%;
   scroll-snap-align: center;
+}
+
+.extra-info-title{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cultxp-extra-info-container:last-of-type{
+    border: none;
 }
