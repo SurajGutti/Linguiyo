@@ -61,18 +61,23 @@ class CulturalExpShow extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="cultxp-teacher-bio-container">
-                        <div className="cultxp-teacher-title">Meet your Turkish 
-                        coffee cultural expert, Uluc!</div>
-                        <div className="cultxp-teacher-bio">I'm Uluç Ülgen, the 
-                        host of "The Turkish Coffee Fortune Reading." In the last 
-                        4 years, over 2,000 guests have visited my East Village 
-                        apartment for a cup of authentic Turkish Coffee followed 
-                        by a personalized fortune read from their coffee grounds! 
-                        The project has earned coverage in publications such as 
-                        the New York Post, The Paris Review, and National Public Radio. 
-                        I’m so excited to bring this experience to you online!</div>
-                        <div className="book-now-btn-teacher-bio">Book Now</div>
+                    <div className="cultxp-teacher-bio-wrapper">
+                        <div className="cultxp-teacher-bio-container">
+                            <img src={TeacherImage} className="teacher-circle-img" />
+                            <div className="cultxp-teacher-title">Meet your host</div>
+                            <div className="cultxp-teacher-bio">I'm Uluç Ülgen, the 
+                            host of "The Turkish Coffee Fortune Reading." In the last 
+                            4 years, over 2,000 guests have visited my East Village 
+                            apartment for a cup of authentic Turkish Coffee followed 
+                            by a personalized fortune read from their coffee grounds! 
+                            The project has earned coverage in publications such as 
+                            the New York Post, The Paris Review, and National Public Radio. 
+                            I’m so excited to bring this experience to you online!</div>
+                        </div>
+                        <div className="book-now-container">
+                            <div className="pricing">30 min | $45 / person</div>
+                            <div className="book-now-btn-teacher-bio">Book Now</div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 import React from 'react';
-import papericon from '../../images/papericon.PNG';
-import personicon from '../../images/personicon.PNG'
-import computericon from '../../images/computericon.PNG'
-import bookicon from '../../images/bookicon.PNG'
-import moneyicon from '../../images/moneyicon.PNG'
-import phoneicon from '../../images/phoneicon.PNG'
+import papericon from './images/papericon.PNG';
+import personicon from './images/personicon.PNG'
+import computericon from './images/computericon.PNG'
+import bookicon from './images/bookicon.PNG'
+import moneyicon from './images/moneyicon.PNG'
+import phoneicon from './images/phoneicon.PNG'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import './help_page_style.css';

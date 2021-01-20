@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                     <span className="caret"></span></Link>
                 <Link className="dropdown-toggle" to="/cultural-experience-land">Cultural Experiences
                     <span className="caret"></span></Link>
-                <Link to="/">The Hub</Link>
+                <Link to="/blog">The Hub</Link>
                 <button>Sign up</button>
             </div >
         );
