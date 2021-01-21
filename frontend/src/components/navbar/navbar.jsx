@@ -10,7 +10,7 @@ class Navbar extends React.Component {
                 <button>Logo</button>
                 <Link className="dropdown-toggle" to="/">Languages
                     <span className="caret"></span></Link>
-                <Link className="dropdown-toggle" to="/cultural-experience-land">Cultural Experiences
+                <Link className="dropdown-toggle" to="/cultural-experience-main">Cultural Experiences
                     <span className="caret"></span></Link>
                 <Link to="/blog">The Hub</Link>
                 <button>Sign up</button>

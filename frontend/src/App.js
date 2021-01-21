@@ -23,8 +23,9 @@ function App() {
       <Route exact path="/users/priya" component={UserShow} />
       {/* use a wildcard below - /cultural-experiences/:exp-id */}
       <Route exact path="/cultural-experiences/1" component={CulturalExpShow} />
-      {/* The initial cultural-experience page  */}
-      <Route exact path="/cultural-experience-land" component={CulturalExperience} />
+
+      <Route exact path="/cultural-experience-main" component={CulturalExperience}/>
+
       {/*  language course page  1 */}
       <Route exact path="/language-courses/1" component={LangCourse} />
       {/* use a wildcard below - /posts/:post-id */}
