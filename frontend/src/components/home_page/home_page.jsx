@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home_page_style.css'
+import Carousel from 'react-bootstrap/Carousel'
 
 class HomePage extends React.Component {
     render() {
@@ -64,14 +65,32 @@ class HomePage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="our-story">
-                    <div>
-                        <h2>Our story</h2>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <Link className="btn">Find Out More</Link>
-                    </div>
-                </div>
+                <Carousel>
+                    <Carousel.Item>
+                        <div className="our-story">
+                            <div>
+                                <h2>Our story</h2>
+                            </div>
+                            <div className="d-flex justify-content-center">
+                                <Link className="btn story-btn">Find Out More</Link>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="our-story">
+                            <div>
+                                <h2>What others say about us</h2>
+                            </div>
+                            <div className="feedback justify-content-center">
+                                <h3>{'Bawa(Shanghai)'}</h3>
+                                <h3>{'The teacher is amazing. I attended her classes before starting studies in Shanghai and her teaching healped me a lot. She has that natural flair as a teacher which helps connect students with divers backgrounds. It was really a privilege to be her student. I look forward to learing more from her in the future. She is very patient and easy going when teaching (which is really a necessity when teaching Mandarin.)'}</h3>
+                            </div>
+                            <div className="d-flex justify-content-center">
+                                <Link className="btn feedback-btn">Find Out More</Link>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
             </div>
         )
     }
