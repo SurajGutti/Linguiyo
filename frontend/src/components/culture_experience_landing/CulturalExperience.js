@@ -76,7 +76,7 @@ function CulturalExperience() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Spanish Lorem Ipsum
+                                    Spanish Dinner Pichai
                             </h3>
                             </div>
 

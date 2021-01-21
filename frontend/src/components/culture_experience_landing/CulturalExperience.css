@@ -90,7 +90,7 @@
 .cultural_main .desc {
     height: 80px !important;
     width:100% !important;
-    opacity: 0.9;
+    opacity: 0.95;
     margin-top: 180px !important;
     background-color: white !important;
     position: relative !important;
@@ -124,5 +124,22 @@ padding:0 15px !important;
     position: absolute;
     top: 0;
     /* height:50vh; */
+
     left: 0;
+  }
+
+  @media screen and (max-width:768px){
+    .cultural_main  .cards_{
+        margin-top:20px;
+          padding:20px 30px !important;
+      }
+      .cultural_main .cards_ .each_card_{
+          margin-top: 30px;
+      }
+      .cultural_main .player-wrapper {
+      
+        height:40vh !important;
+      
+     
+      }
   }
