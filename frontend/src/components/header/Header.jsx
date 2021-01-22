@@ -6,17 +6,12 @@ import { Link } from 'react-router-dom';
 
 
 export default function Header() {
-
-
-
     return (
-
         <div>
-
             <Navbar variant="dark" bg="dark" sticky="top"  >
                 <Nav className="container-fluid" style={{ paddingLeft: 70, paddingRight: 70 }}>
                     <Nav.Item>
-                        <Navbar.Brand href="/home"><img src="Logo.png" alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
+                        <Navbar.Brand href="/"><img src="Logo.png" alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
                     </Nav.Item>
                     <Nav.Item>
                         <NavDropdown title={<span className={style.navDropDownTitle}>Languages</span>} id="language-nav-dropdown">
