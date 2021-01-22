@@ -30,6 +30,23 @@
     padding: 0rem 3rem 0rem 3rem;
 }
 
+.title-description:hover{
+    color: #F1A4A4;
+}
+
+.title-description:hover::before{
+    color: black;
+}
+
+a{
+    color:  black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #6E6E6E;
+}
+
 /* Top creator content */
 
 .blog-content{
@@ -82,7 +99,7 @@
 /* Main Content */
 
 .main-content{
-    padding: 1rem 1rem 2rem 2rem;
+    padding: 0rem 1rem 2rem 2rem;
 }
 
 .main-content h2{
@@ -91,8 +108,8 @@
 
 .main-content p{
     margin-top: 1rem;
-    color: #6E6E6E;
 }
+
 
 .main-content hr{
     bottom:0;  
