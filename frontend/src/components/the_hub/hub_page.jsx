@@ -120,7 +120,7 @@ class HubPage extends React.Component {
 
 
                     {/* Korea */}
-                    <Link>
+                    <Link to="/posts/3">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -163,7 +163,7 @@ class HubPage extends React.Component {
 
 
                     {/* Punjabi */}
-                    <Link>
+                    <Link to="/posts/4">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
