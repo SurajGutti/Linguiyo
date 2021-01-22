@@ -19,7 +19,7 @@ import turkey from './images/turkey.jpg'
 import logo from './images/logo.png'
 import ReactPlayer from "react-player"
 import './hub_page_style.css'
-import 'font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.css';
 
 class HubPage extends React.Component {
     render() {
@@ -78,7 +78,7 @@ class HubPage extends React.Component {
 
 
                     {/* Vietnam */}
-                    <Link>
+                    <Link to="/posts/2">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
