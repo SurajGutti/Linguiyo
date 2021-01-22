@@ -1,0 +1,41 @@
+/*
+.navLinks {
+    background-color:white;
+    color: #1ABD9D;
+}
+    
+.navLinks:hover {
+    background-color:#1ABD9D; 
+    color: white;
+}
+*/
+
+
+.bg-black {
+    background-color: #111111 !important;
+}
+
+.navLinks {
+    color: white !important;
+}
+    
+/* .navLinks:hover {
+    color: #1ABD9D !important; / *  will change color of text within the element on hover * /
+} */
+
+.navDropDownTitle {
+    color: white !important;
+}
+
+.custom-sign-up-btn {
+    background:  #1ABD9D !important;
+    color: white !important;
+    border-radius: 50%;
+}
+
+button:focus {
+    outline:none;
+    box-shadow: none;
+}
+/* borderRadius: "5%", width: "100px", height: "40px", */ 
+
