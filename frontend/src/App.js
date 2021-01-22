@@ -12,12 +12,14 @@ import LangCourse from './components/languagecourses/langcourse';
 import PostSingle from './components/blog_post/PostSingle';
 import VietnamPost from './components/vietnam_post/VietnamPost';
 import HubPage from './components/the_hub/hub_page';
+import Header from './components/header/Header'
 
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Header />
       <Route exact path="/" component={HomePage} />
       <Route exact path="/help" component={HelpPage} />
       {/* use a wildcard below - /users/:id */}
