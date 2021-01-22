@@ -4,7 +4,7 @@ import EachCulture from './EachCulture'
 import ReactPlayer from 'react-player'
 
 import TurkishCoffeeImage from './Turkish-images/4.JPG';
-import MasalaChaiImage from './Indian-Chai-Images/2.jpg'
+import MasalaChaiImage from './Indian-Chai-Images/6.jpeg'
 import CoffeeImage from './Turkish-images/3.jpeg';
 function CulturalExperience() {
     return (
@@ -35,14 +35,14 @@ function CulturalExperience() {
             <div className="row d-flex justify-content-around cards_">
 
                 <div className="col-md-3 p-0">
-                    <div style={{ backgroundImage: `url('${TurkishCoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
+                    <div style={{ backgroundImage: `url('${CoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
                         </div>
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Turkish Coffee Fortune Reading
+                                    Turkish Coffee
                             </h3>
                             </div>
 
@@ -60,7 +60,7 @@ function CulturalExperience() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Masala Chai and Pakoda the Indian Way
+                                   Indian Chai
                             </h3>
                             </div>
 
@@ -69,14 +69,14 @@ function CulturalExperience() {
                     </div>
                 </div>
                 <div className="col-md-3 p-0">
-                    <div style={{ backgroundImage: `url('${CoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
+                    <div style={{ backgroundImage: `url('${TurkishCoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
                         </div>
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Spanish Dinner Pichai
+                                    Spanish Tea
                             </h3>
                             </div>
 
