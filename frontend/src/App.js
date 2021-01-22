@@ -13,6 +13,7 @@ import PostSingle from './components/blog_post/PostSingle';
 import VietnamPost from './components/vietnam_post/VietnamPost';
 import HubPage from './components/the_hub/hub_page';
 import Header from './components/header/Header'
+import LanguagesMain from './components/languages_main/languages_main';
 
 
 function App() {
@@ -28,13 +29,14 @@ function App() {
       <Route exact path="/cultural-experiences/1" component={CulturalExpShow} />
 
       <Route exact path="/cultural-experience-main" component={CulturalExperience} />
-
+      
       {/*  language course page  1 */}
       <Route exact path="/language-courses/1" component={LangCourse} />
       {/* use a wildcard below - /posts/:post-id */}
       <Route exact path="/blog" component={HubPage} />
       <Route exact path="/posts/1" component={PostSingle} />
       <Route exact path="/posts/2" component={VietnamPost} />
+      <Route exact path="/languages-main" component={LanguagesMain} />
       <Footer />
     </BrowserRouter >
   );
