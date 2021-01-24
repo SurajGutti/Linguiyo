@@ -16,6 +16,7 @@ import PunjabiPost from './components/punjabi_post/PunjabiPost';
 import HubPage from './components/the_hub/hub_page';
 import Header from './components/header/Header'
 import LanguagesMain from './components/languages_main/languages_main';
+import GermanBlog from './components/german_blog/german_blog';
 
 
 function App() {
@@ -38,8 +39,12 @@ function App() {
       <Route exact path="/blog" component={HubPage} />
       <Route exact path="/posts/1" component={PostSingle} />
       <Route exact path="/posts/2" component={VietnamPost} />
+
+      <Route exact path="/posts/german_blog" component={GermanBlog} />
+
       <Route exact path="/posts/3" component={KoreaPost} />
       <Route exact path="/posts/4" component={PunjabiPost} />
+
       <Route exact path="/languages-main" component={LanguagesMain} />
       <Footer />
     </BrowserRouter >
