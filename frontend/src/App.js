@@ -21,6 +21,7 @@ import LanguagesMain from './components/languages_main/languages_main';
 import GermanBlog from './components/german_blog/german_blog';
 import TurkishPost from './components/turkish_post/TurkishPost';
 import RussianBlog from './components/russian_blog/russian_blog';
+import CommunicationBlog from './components/communication_blog/CommunicatonBlog';
 
 
 function App() {
@@ -36,7 +37,6 @@ function App() {
       <Route exact path="/cultural-experiences/1" component={CulturalExpShow} />
       <Route exact path="/cultural-experiences/2" component={SecondCultShowPage} />
       {/* The initial cultural-experience page  */}
-      <Route exact path="/cultural-experience-land" component={CulturalExperience} />
       <Route exact path="/cultural-experience-main" component={CulturalExperience} />
       {/*  language course page  1 */}
       <Route exact path="/language-courses/hindi" component={LanguageCourseHindi} />
@@ -50,8 +50,8 @@ function App() {
       <Route exact path="/posts/korea_blog" component={KoreaPost} />
       <Route exact path="/posts/turkish_post" component={TurkishPost} />
       <Route exact path="/posts/punjabi_blog" component={PunjabiPost} />
-      <Route exact path="/posts/russian_blog" component={RussianBlog} />
       <Route exact path="/languages-main" component={LanguagesMain} />
+      <Route exact path="/posts/communication_blog" component={CommunicationBlog} />
       <Footer />
     </BrowserRouter >
   );
