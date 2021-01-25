@@ -30,9 +30,19 @@
     margin-top: 50px;
     font-weight: bolder;
 }
-
+.blog_german .blog_inner_2 .styled{
+    color:rgba(2, 100, 124, 1);
+    font-size:24px;
+    font-weight:lighter;
+}
 .blog_german .blog_inner_2 .menu_ {
     padding: 26px 0px !important;
+}
+
+.blog_german .blog_inner_2 .bg_i{
+    min-height: 500px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .blog_german .blog_inner_2 .images_ {
@@ -45,6 +55,9 @@
 }
 
 .blog_german .each_card {
+   
+   background-size: cover !important;
+   background-position: center;
     margin-top: 25px !important;
 
     min-height: 240px !important;
