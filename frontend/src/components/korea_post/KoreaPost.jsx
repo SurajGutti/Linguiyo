@@ -1,8 +1,19 @@
 import React from 'react'
 import './KoreaPost_style.css'
+import one from './korea_images/1.jpg';
+import two from './korea_images/2.jpeg';
+import three from './korea_images/3.jpeg';
+import four from './korea_images/4.jpeg';
+import five from './korea_images/5.jpeg';
+import six from './korea_images/6.jpeg';
+import seven from './korea_images/7.jpeg';
+import eight from './korea_images/8.jpeg';
+import nine from './korea_images/9.jpeg';
+import ten from './korea_images/10.png';
+
 function KoreaPost() {
     return (
-        <div className="blog_single container-fluid">
+        <div className="korea_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <span>All Posts</span>  <span>Search</span>
@@ -20,59 +31,58 @@ function KoreaPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={one} alt="one" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={two} alt="two" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={three} alt="three" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={four} alt="four" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={five} alt="five" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={six} alt="six" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={seven} alt="seven" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={eight} alt="eight" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={nine} alt="nine" />
                             </div>
-
                         </div>
                     </div>
 
@@ -93,8 +103,7 @@ function KoreaPost() {
                             <h2>Learning Hangul </h2>
                         </div>
                         <div className="col-md-6">
-
-                            <p>
+                            <p className="mt-5">
                                 The 한글 or Hangul is the Korean alphabet. It has been used since the Joseon Dynasty in the 15th century A.D. Composed of 14 consonants and 10 vowels, it’s said to be the most scientific alphabet in the world, mimicking almost every human sound and so precise that it’s extra easy to learn.
                             </p>
                             <p>
@@ -104,7 +113,7 @@ function KoreaPost() {
                         </div>
                         <div className="col-md-6 p-3">
                             <div className="p_right">
-
+                                <img src={ten} alt="ten" />
                             </div>
                         </div>
                     </div>
@@ -204,7 +213,6 @@ function KoreaPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
-
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
                                         <h4>Rasode Mein Kon Tha?</h4>

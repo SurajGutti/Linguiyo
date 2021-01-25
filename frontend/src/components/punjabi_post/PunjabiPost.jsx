@@ -1,8 +1,18 @@
-import React from 'react'
-import './PunjabiPost_style.css'
+import React from 'react';
+import './PunjabiPost_style.css';
+import one from './punjabi_images/1.jpeg';
+import two from './punjabi_images/2.jpg';
+import three from './punjabi_images/3.jpg';
+import four from './punjabi_images/4.jpeg';
+import five from './punjabi_images/5.jpg';
+import six from './punjabi_images/6.jpeg';
+import seven from './punjabi_images/7.jpeg';
+import eight from './punjabi_images/8.jpg';
+import nine from './punjabi_images/9.jpg';
+
 function PunjabiPost() {
     return (
-        <div className="blog_single container-fluid">
+        <div className="punjabi_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <span>All Posts</span>  <span>Search</span>
@@ -20,57 +30,57 @@ function PunjabiPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={one} alt="one" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={two} alt="two" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={three} alt="three" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={four} alt="four" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={five} alt="five" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={six} alt="six" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={seven} alt="seven" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={eight} alt="eight" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={nine} alt="nine" />
                             </div>
                         </div>
                     </div>

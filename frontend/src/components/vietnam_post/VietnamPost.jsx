@@ -1,8 +1,21 @@
-import React from 'react'
-import './VietnamPost_style.css'
+import React from 'react';
+import './VietnamPost_style.css';
+import one from './vietnam_images/1.jpeg';
+import two from './vietnam_images/2.jpeg';
+import three from './vietnam_images/3.jpeg';
+import four from './vietnam_images/4.jpeg';
+import five from './vietnam_images/5.jpeg';
+import six from './vietnam_images/6.jpeg';
+import seven from './vietnam_images/7.jpeg';
+import eight from './vietnam_images/8.jpeg';
+import nine from './vietnam_images/9.jpeg';
+import ten from './vietnam_images/10.jpeg';
+
+
+
 function VietnamPost() {
     return (
-        <div className="blog_single container-fluid">
+        <div className="vietnam_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <span>All Posts</span>  <span>Search</span>
@@ -20,57 +33,57 @@ function VietnamPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={one} alt="one" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={two} alt="two" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={three} alt="three" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={four} alt="four" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={five} alt="five" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={six} alt="six" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={seven} alt="seven" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={eight} alt="eight" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={nine} alt="nine" />
                             </div>
                         </div>
                     </div>
@@ -154,14 +167,10 @@ function VietnamPost() {
                         </div>
                         <div className="col-md-6 p-3">
                             <div className="p_right">
-
+                                <img src={ten} alt="ten" />
                             </div>
                         </div>
                     </div>
-
-
-
-
 
                     <div className="row medias_">
                         <div>
