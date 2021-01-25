@@ -1,55 +1,112 @@
-.about{
-    background-color: rgb(175, 174, 172);
-    position: relative;
-    height: 45em;
-    display: flex;
-    flex-direction: 'row';
-    justify-content: center;
+.participate-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
 }
 
-/* .video {
-    position: relative;
-    width: 500px;
-    height: 350px;
-    width: 50%;
-    border: 5px solid rgb(230, 224, 224);
-    border-radius: 10px;
-    overflow: hidden;
-    justify-content: center;
-    justify-content: center;
- } */
+.about{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
 
- .vid-border{
-    position: relative;
-    left: 23%;
-    height: 480px;
-    width: 854px;
-    border: 5px solid rgb(230, 224, 224);
-    justify-content: center;
-    justify-content: center;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  #vid {
-    position: absolute;
-    top:-5px;
-    left:-5px;
-    height: 480px;
-    width: 854px;
-  }
+.about-course{
+  display: flex;
+  margin: 0px 60px;
+}
 
-.booknowbutton{
-    background-color: rgb(245, 110, 110);
-    position: relative;
-    left: 45%;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 40px 2px;
-    cursor: pointer;
-    justify-content: center;
+.course-info{
+  width: 60%;
+}
+
+.teacher-info{
+  width: 40%;
+}
+
+.vid-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.vid-border{
+  position: relative;
+  height: 400px;
+  width: 650px;
+  border: 5px solid rgb(230, 224, 224);
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#vid {
+  position: absolute;
+  top:-5px;
+  left:-5px;
+  height: 400px;
+  width: 650px;
+}
+
+.lang-header{
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  margin: 30px 0px;
+}
+
+.lang-about{
+  width: 100%;
+  font-size: 26px;
+  text-align: center;
+}
+
+.lang-description{
+  width: 100%;
+  margin: 20px 20%; 
+  text-align: center;
+  line-height: 2;
+}
+
+.extra-info-title{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.participate-title{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.format-info{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.format-desc{
+  line-height: 1.5;
+}
+
+.teacher-circle-img{
+  border-radius: 100%;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.participate-desc{
+  line-height: 1.5;
 }
