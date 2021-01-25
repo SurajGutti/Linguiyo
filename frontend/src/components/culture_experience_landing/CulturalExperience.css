@@ -1,40 +1,145 @@
-
-.cultural_image_container{
-    height:60vh;
+.cultural_image_container {
+    height: 60vh;
     position: relative !important;
     background-repeat: no-repeat !important;
-    background-size:cover !important;
+    background-size: cover !important;
 }
-.cultural_image_container .btn_cont{
+
+.cultural_image_container .btn_cont {
     position: absolute !important;
     bottom: -16px !important;
-    width:100%;
+    width: 100%;
 }
-.cultural_image_container .btn_cont .btn{
+
+.cultural_image_container .btn_cont .btn {
     background-color: rgb(118, 118, 118) !important;
     border-radius: 0 !important;
     font-weight: lighter !important;
     font-family: sans-serif !important;
-    border:none !important;
-    width:160px;
-    height:35px;
+    border: none !important;
+    width: 160px;
+    height: 35px;
 }
-.card_bottom p.price{
+
+.card_bottom p.price {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:23px !important;
+    font-size: 23px !important;
     font-weight: lighter !important;
-    color:rgb(253, 110, 110);
+    color: rgb(253, 110, 110);
 }
-.card_bottom p.culture_description{
-    font-size:17px !important;
-    color: rgba(0,0,0,0.7) !important;
+
+.card_bottom p.culture_description {
+    font-size: 17px !important;
+    color: rgba(0, 0, 0, 0.7) !important;
     font-family: sans-serif !important;
 }
+
 .card_bottom h4.culture_title {
     font-family: sans-serif !important;
     font-size: 26px !important;
     font-weight: bolder;
-    color:rgb(253, 110, 110);
+    color: rgb(253, 110, 110);
 }
 
+.cultural_main .video_container {
+    height: 270px;
+   
+    border-radius: 10px !important;
+    margin-bottom: 40px;
+}
 
+.cultural_main h1.text-center {
+    font-size: 22px !important;
+    font-weight: bolder !important;
+    margin: 25px 0;
+}
+
+.cultural_main .each_card_ {
+    border: 1px solid white;
+    min-height: 260px;
+    padding: 0 !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    background-position:center !important;
+    border-radius: 10px !important;
+
+}
+
+.cultural_main .cards_ {
+    padding: 10px 130px !important;
+    margin-top:120px;
+}
+
+.cultural_main .innerfade_ {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    border-radius: 10px !important;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s linear;
+    z-index: 1 !important;
+}
+
+.cultural_main .innerfade_:hover {
+    opacity: 1;
+
+}
+
+.cultural_main .desc {
+    height: 80px !important;
+    width:100% !important;
+    opacity: 0.95;
+    margin-top: 180px !important;
+    background-color: white !important;
+    position: relative !important;
+    padding-left: 14px !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top:10px !important;
+    z-index: 2 !important;
+       border-bottom-left-radius: 10px !important;
+     border-bottom-right-radius: 10px !important;
+
+}
+.cultural_main .desc h3 {
+color:black;
+font-weight:600 !important;
+font-size:19px !important;
+}
+
+.cultural_main .desc_container{
+ 
+padding:0 15px !important;
+}
+
+.cultural_main .player-wrapper {
+    position: relative;
+    height:59vh !important;
+    border-radius:10px;
+ 
+  }
+  
+  .cultural_main .react-player {
+    position: absolute;
+    top: 0;
+    /* height:50vh; */
+
+    left: 0;
+  }
+
+  @media screen and (max-width:768px){
+    .cultural_main  .cards_{
+        margin-top:20px;
+          padding:20px 30px !important;
+      }
+      .cultural_main .cards_ .each_card_{
+          margin-top: 30px;
+      }
+      .cultural_main .player-wrapper {
+      
+        height:40vh !important;
+      
+     
+      }
+  }
