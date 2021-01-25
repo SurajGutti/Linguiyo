@@ -19,6 +19,7 @@ import LanguageCourseSpanish from './components/languagecourses/languagecourse-s
 import Header from './components/header/Header'
 import LanguagesMain from './components/languages_main/languages_main';
 import GermanBlog from './components/german_blog/german_blog';
+import TurkishPost from './components/turkish_post/TurkishPost';
 import RussianBlog from './components/russian_blog/russian_blog';
 
 
@@ -42,14 +43,14 @@ function App() {
       <Route exact path="/language-courses/spanish" component={LanguageCourseSpanish} />
       {/* use a wildcard below - /posts/:post-id */}
       <Route exact path="/blog" component={HubPage} />
-      <Route exact path="/posts/1" component={PostSingle} />
-      <Route exact path="/posts/2" component={VietnamPost} />
-
+      <Route exact path="/posts/japan_blog" component={PostSingle} />
+      <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
       <Route exact path="/posts/german_blog" component={GermanBlog} />
       <Route exact path="/posts/russian_blog" component={RussianBlog} />
-      <Route exact path="/posts/3" component={KoreaPost} />
-      <Route exact path="/posts/4" component={PunjabiPost} />
-
+      <Route exact path="/posts/korea_blog" component={KoreaPost} />
+      <Route exact path="/posts/turkish_post" component={TurkishPost} />
+      <Route exact path="/posts/punjabi_blog" component={PunjabiPost} />
+      <Route exact path="/posts/russian_blog" component={RussianBlog} />
       <Route exact path="/languages-main" component={LanguagesMain} />
       <Footer />
     </BrowserRouter >

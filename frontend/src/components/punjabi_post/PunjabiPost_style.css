@@ -1,57 +1,53 @@
-.blog_single .blog_inner{
+.punjabi_blog .blog_inner{
     background-color: white !important;
     min-height: 100vh !important;
     padding: 30px 35px;
 }
 
-.blog_single .blog_inner_2{
+.punjabi_blog .blog_inner_2{
     border: 1px solid rgba(0,0,0,0.1);
     min-height: 100vh !important;
     margin-top:80px;
     padding: 20px 90px !important;
 }
 
-.blog_single .blog_inner_2 h1{
+.punjabi_blog .blog_inner_2 h1{
  font-weight: bolder;
  font-size: 26px;
  margin-left: -15px !important;
 }
-.blog_single .blog_inner_2 p{
+.punjabi_blog .blog_inner_2 p{
     padding: 0 !important;
     font-size: 18px;
     line-height: 1.4em;
     margin-top: 20px;
     color: rgba(0,0,0,0.7);
    }
-   .blog_single .blog_inner_2 .subhead{
+   .punjabi_blog .blog_inner_2 .subhead{
     font-size: 20px;
     margin-top: 50px;
     font-weight: bolder;
    }
 
-.blog_single .blog_inner_2 .menu_{
+.punjabi_blog .blog_inner_2 .menu_{
  padding: 26px 0px !important;
 }
-.blog_single .blog_inner_2 .images_{
+.punjabi_blog .blog_inner_2 .images_{
     margin-top:80px;
    }
-.blog_single  .each_card{
-    border: 1px solid rgba(0,0,0,0.1) !important;
+.punjabi_blog  .each_card{
     min-height: 240px !important;
-    background-color: rgba(0,0,0,0.1) !important;
 }
-.blog_single  .each_2{
-    border: 1px solid rgba(0,0,0,0.1) !important;
+.punjabi_blog  .each_2{
     min-height: 310px !important;
-    background-color:rgba(0,0,0,0.05) !important;
 }
-.blog_single .blog_inner_2 .h_2{
+.punjabi_blog .blog_inner_2 .h_2{
     margin-left:-14px;
 }
-.blog_single .blog_inner_2 .link_{
+.punjabi_blog .blog_inner_2 .link_{
    cursor: pointer;
 }
-.blog_single  .comment_box{
+.punjabi_blog  .comment_box{
     border: 1px solid rgba(0,0,0,0.1) !important;
     padding: 40px 0;
     text-align: center !important;
@@ -65,7 +61,7 @@
     cursor: pointer;
 }
 
-.blog_single  .title_2{
+.punjabi_blog  .title_2{
     width:85% !important;
     font-weight: bolder !important;
     padding: 20px 0px !important;
@@ -74,43 +70,38 @@
     margin-top: 150px !important;
 }
 
-.blog_single .blog_inner_2 .p_right{
-    border: 1px solid rgba(0,0,0,0.1) !important;
-    height:450px;
-    background-color: rgba(0,0,0,0.1) !important;
- }
- .blog_single .blog_inner_2 .medias_{
+ .punjabi_blog .blog_inner_2 .medias_{
      border-top: 1px solid rgba(0,0,0,0.14);
      margin-top:30px;
      padding: 24px 30px !important;
      border-bottom: 1px solid rgba(0,0,0,0.14);
  }
- .blog_single .blog_inner_2 .medias_2{
+ .punjabi_blog .blog_inner_2 .medias_2{
    
     margin-top:30px !important;
     padding: 10px 30px !important ;
    
 }
-.blog_single .blog_inner_2 .medias_2 span{
+.punjabi_blog .blog_inner_2 .medias_2 span{
    
   
     padding: 4px 5px;
    
 }
- .blog_single .blog_inner_2 .medias_ span{
+ .punjabi_blog .blog_inner_2 .medias_ span{
   padding: 4px 10px;
  }
 
 
  @media screen and (max-width:768px){
-.blog_single{
+.punjabi_blog{
     padding: 0 3px !important;
 }
-.blog_single .blog_inner_2{
+.punjabi_blog .blog_inner_2{
 
     padding: 20px 20px !important;
 }
-.blog_single .blog_inner{
+.punjabi_blog .blog_inner{
     background-color: white !important;
     min-height: 100vh !important;
     padding: 30px 15px;
