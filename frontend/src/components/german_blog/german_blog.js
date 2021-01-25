@@ -1,15 +1,16 @@
 import React from 'react'
 import './german.css'
+import logo from '../shared_assets/short_logo.png'
 
-import MasalaChaiImage from './assets/Indian-Chai-Images/2.jpg'
-import MasalaChaiImage2 from './assets/Indian-Chai-Images/1.jpeg'
-import MasalaChaiImage3 from './assets/Indian-Chai-Images/2.jpeg'
-import MasalaChaiImage4 from './assets/Indian-Chai-Images/3.jpg'
-import MasalaChaiImage5 from './assets/Indian-Chai-Images/4.jpg'
-import MasalaChaiImage6 from './assets/Indian-Chai-Images/5.jpg'
-import MasalaChaiImage7 from './assets/Indian-Chai-Images/6.jpeg'
-import MasalaChaiImage8 from './assets/Turkish-images/2.jpg';
-import MasalaChaiImage9 from './assets/Turkish-images/5.jpg';
+import MasalaChaiImage from './assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png'
+import MasalaChaiImage2 from './assets/German/Screen Shot 2021-01-25 at 10.34.27 AM.png'
+import MasalaChaiImage3 from './assets/German/photo-1546726747-421c6d69c929.jpeg'
+import MasalaChaiImage4 from './assets/German/Screen Shot 2021-01-25 at 10.34.37 AM.png'
+import MasalaChaiImage5 from './assets/German/Screen Shot 2021-01-25 at 10.34.44 AM.png'
+import MasalaChaiImage6 from './assets/German/photo-1578080667860-a317894a0f06.jpeg'
+import MasalaChaiImage7 from './assets/German/photo-1587330979470-3595ac045ab0.jpeg'
+import MasalaChaiImage8 from './assets/German/Screen Shot 2021-01-25 at 10.34.52 AM.png';
+import MasalaChaiImage9 from './assets/German/Screen Shot 2021-01-25 at 10.34.59 AM.png';
 import german_1 from './assets/Indian-Chai-Images/german_1.webp'
 import german_2 from './assets/Indian-Chai-Images/german_2.webp'
 import 'font-awesome/css/font-awesome.css';
@@ -24,7 +25,7 @@ function GermanBlog() {
                 <div className="col-md-12 blog_inner_2">
 
                     <div className="row justify-content-between d-flex menu_ menu_up">
-                        <span>Linguiyo Jun 5, 2020 2 min read</span>
+                        <span ><img className="logo_" src={logo} alt="check"/> Linguiyo Jun 5, 2020 2 min read</span>
                         <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
                     <div className="ty">

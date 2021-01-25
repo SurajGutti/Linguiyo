@@ -1,15 +1,16 @@
 import React from 'react'
 import './russian.css'
+import logo from '../shared_assets/short_logo.png'
 
-import MasalaChaiImage from './assets/Indian-Chai-Images/2.jpg'
-import MasalaChaiImage2 from './assets/Indian-Chai-Images/1.jpeg'
-import MasalaChaiImage3 from './assets/Indian-Chai-Images/2.jpeg'
-import MasalaChaiImage4 from './assets/Indian-Chai-Images/3.jpg'
-import MasalaChaiImage5 from './assets/Indian-Chai-Images/4.jpg'
-import MasalaChaiImage6 from './assets/Indian-Chai-Images/5.jpg'
-import MasalaChaiImage7 from './assets/Indian-Chai-Images/6.jpeg'
-import MasalaChaiImage8 from './assets/Turkish-images/2.jpg';
-import MasalaChaiImage9 from './assets/Turkish-images/5.jpg';
+import MasalaChaiImage from './assets/Russian/photo-1563132178-829771864d6b.jpeg'
+import MasalaChaiImage2 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.42 AM.png'
+import MasalaChaiImage3 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.49 AM.png'
+import MasalaChaiImage4 from './assets/Russian/photo-1563132178-829771864d6b.jpeg'
+import MasalaChaiImage5 from './assets/Russian/Screen Shot 2021-01-25 at 10.27.57 AM.png'
+import MasalaChaiImage6 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.33 AM.png'
+import MasalaChaiImage7 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.14 AM.png'
+import MasalaChaiImage8 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.20 AM.png'
+import MasalaChaiImage9 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.26 AM.png'
 import russian_logo from './assets/Indian-Chai-Images/russian_logo.webp'
 import russian_dance from './assets/Indian-Chai-Images/russian_dance.webp'
 import russian_family from './assets/Indian-Chai-Images/russian_family.webp'
@@ -25,7 +26,7 @@ function RussianBlog() {
                 <div className="col-md-12 blog_inner_2">
 
                     <div className="row justify-content-between d-flex menu_ menu_up">
-                        <span>Linguiyo Jun 1, 2020 3 min read
+                        <span><img className="logo_" src={logo} alt="check"/> Linguiyo Jun 1, 2020 3 min read
 
                        </span>
                         <span><i class="fa fa-ellipsis-v"></i></span>
