@@ -8,10 +8,11 @@ import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
 import CulturalExperience from './components/culture_experience_landing/CulturalExperience';
-import LangCourse from './components/languagecourses/langcourse';
 import PostSingle from './components/blog_post/PostSingle';
 import HubPage from './components/the_hub/hub_page';
 import SecondCultShowPage from './components/cultural_experiences_show/2nd_show_page';
+import LanguageCourseHindi from './components/languagecourses/languagecourse-hindi';
+import LanguageCourseSpanish from './components/languagecourses/languagecourse-spanish';
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* The initial cultural-experience page  */}
       <Route exact path="/cultural-experience-land" component={CulturalExperience} />
       {/*  language course page  1 */}
-      <Route exact path="/language-courses/1" component={LangCourse} />
+      <Route exact path="/language-courses/hindi" component={LanguageCourseHindi} />
+      <Route exact path="/language-courses/spanish" component={LanguageCourseSpanish} />
       {/* use a wildcard below - /posts/:post-id */}
       <Route exact path="/posts/1" component={PostSingle} />
       <Route exact path="/blog" component={HubPage} />
