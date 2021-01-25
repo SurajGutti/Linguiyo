@@ -1,12 +1,3 @@
-.hub-background {
-    background: url('https://cdn-v2.asla.org/uploadedImages/CMS/Shop/Bookstore/books.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    padding: 0 160px !important;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .blog_german .blog_inner {
     background-color: white !important;
     min-height: 100vh !important;
