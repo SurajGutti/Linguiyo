@@ -54,8 +54,6 @@ function App() {
       <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
       <Route exact path="/posts/german_blog" component={GermanBlog} />
       <Route exact path="/posts/russian_blog" component={RussianBlog} />
-      <Route exact path="/posts/3" component={KoreaPost} />
-      <Route exact path="/posts/4" component={PunjabiPost} />
 
       <Route exact path="/posts/eng_post" component={EnglishPost} />
       <Route exact path="/posts/mnd_post" component={MandarinPost} />
@@ -64,7 +62,7 @@ function App() {
       <Route exact path="/posts/korea_blog" component={KoreaPost} />
       <Route exact path="/posts/turkish_post" component={TurkishPost} />
       <Route exact path="/posts/punjabi_blog" component={PunjabiPost} />
-    
+
       <Route exact path="/languages-main" component={LanguagesMain} />
       <Route exact path="/posts/communication_blog" component={CommunicationBlog} />
       <Footer />

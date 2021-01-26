@@ -1,11 +1,13 @@
 import React from 'react'
 import './PostSingle.css'
+import { Link } from 'react-router-dom';
+
 function PostSingle() {
     return (
         <div className="blog_single container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <span>All Posts</span>  <span>Search</span>
+                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
