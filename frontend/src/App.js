@@ -16,11 +16,16 @@ import HubPage from './components/the_hub/hub_page';
 import SecondCultShowPage from './components/cultural_experiences_show/2nd_show_page';
 import LanguageCourseHindi from './components/languagecourses/languagecourse-hindi';
 import LanguageCourseSpanish from './components/languagecourses/languagecourse-spanish';
+import LanguageCourseChinese from './components/languagecourses/languagecourse-chinese';
+import LanguageCourseFrench from './components/languagecourses/languagecourse-french';
 import Header from './components/header/Header'
 import LanguagesMain from './components/languages_main/languages_main';
 import GermanBlog from './components/german_blog/german_blog';
 import TurkishPost from './components/turkish_post/TurkishPost';
 import RussianBlog from './components/russian_blog/russian_blog';
+import EnglishPost from './components/the_hub/posts/EnglishPost';
+import MandarinPost from './components/the_hub/posts/MandarinPost';
+import HindiPost from './components/the_hub/posts/HindiPost';
 import CommunicationBlog from './components/communication_blog/CommunicatonBlog';
 
 
@@ -41,15 +46,25 @@ function App() {
       {/*  language course page  1 */}
       <Route exact path="/language-courses/hindi" component={LanguageCourseHindi} />
       <Route exact path="/language-courses/spanish" component={LanguageCourseSpanish} />
+      <Route exact path="/language-courses/chinese" component={LanguageCourseChinese} />
+      <Route exact path="/language-courses/french" component={LanguageCourseFrench} />
       {/* use a wildcard below - /posts/:post-id */}
       <Route exact path="/blog" component={HubPage} />
       <Route exact path="/posts/japan_blog" component={PostSingle} />
       <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
       <Route exact path="/posts/german_blog" component={GermanBlog} />
       <Route exact path="/posts/russian_blog" component={RussianBlog} />
+      <Route exact path="/posts/3" component={KoreaPost} />
+      <Route exact path="/posts/4" component={PunjabiPost} />
+
+      <Route exact path="/posts/eng_post" component={EnglishPost} />
+      <Route exact path="/posts/mnd_post" component={MandarinPost} />
+      <Route exact path="/posts/hin_post" component={HindiPost} />
+
       <Route exact path="/posts/korea_blog" component={KoreaPost} />
       <Route exact path="/posts/turkish_post" component={TurkishPost} />
       <Route exact path="/posts/punjabi_blog" component={PunjabiPost} />
+    
       <Route exact path="/languages-main" component={LanguagesMain} />
       <Route exact path="/posts/communication_blog" component={CommunicationBlog} />
       <Footer />
