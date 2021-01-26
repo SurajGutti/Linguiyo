@@ -1,16 +1,14 @@
-.hub-background {
-    background: url('https://cdn-v2.asla.org/uploadedImages/CMS/Shop/Bookstore/books.jpg');
-    min-height: 100vh;
-    background-size: cover;
-    padding: 0 160px !important;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .blog_german .blog_inner {
     background-color: white !important;
     min-height: 100vh !important;
     padding: 30px 35px;
+}
+img.logo_{
+    width:35px;
+    height:35px;
+    margin-bottom: -10px;
+    margin-right:10px;
+    border-radius: 50%;
 }
 
 .blog_german .blog_inner_2 {
@@ -54,7 +52,7 @@
 }
 
 .blog_german .each_card {
-    background-position: center;
+    
     margin-top: 25px !important;
 
     min-height: 240px !important;

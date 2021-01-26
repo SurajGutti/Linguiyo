@@ -194,4 +194,8 @@ body{
 	font-weight: bolder;
 }
 
+.carousel{
+	margin: 0 !important;
+}
+
 
