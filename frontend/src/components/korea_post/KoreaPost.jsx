@@ -1,5 +1,6 @@
 import React from 'react'
 import './KoreaPost_style.css'
+import { Link } from 'react-router-dom';
 import one from './korea_images/1.jpg';
 import two from './korea_images/2.jpeg';
 import three from './korea_images/3.jpeg';
@@ -16,7 +17,7 @@ function KoreaPost() {
         <div className="korea_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <span>All Posts</span>  <span>Search</span>
+                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
