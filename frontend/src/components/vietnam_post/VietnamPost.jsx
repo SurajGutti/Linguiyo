@@ -175,13 +175,11 @@ function VietnamPost() {
 
                     <div className="row medias_">
                         <div>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-
+                            <span> <i className="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-twitter" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-linkedin" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-link" aria-hidden="true"></i></span>
                         </div>
-
                     </div>
                     <div className="row justify-content-between d-flex medias_2">
 
@@ -190,7 +188,7 @@ function VietnamPost() {
                             <span>0 comments</span>
                         </div>
 
-                        <span>1 O</span>
+                        <span >1 <span className="text-danger"><i className="fa fa-heart" aria-hidden="true"></i> </span></span>
                     </div>
 
 
@@ -214,11 +212,11 @@ function VietnamPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -236,11 +234,11 @@ function VietnamPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -258,11 +256,11 @@ function VietnamPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>

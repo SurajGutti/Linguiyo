@@ -181,11 +181,11 @@ function PunjabiPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -203,11 +203,11 @@ function PunjabiPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -225,11 +225,11 @@ function PunjabiPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
