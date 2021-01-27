@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 
 import TurkishCoffeeImage from './assets/Turkish-images/4.JPG';
 import MasalaChaiImage from './assets/Indian-Chai-Images/2.jpg'
+import TestImage from './assets/Indian-Chai-Images/3.jpg'
 import CoffeeImage from './assets/Turkish-images/3.jpeg';
 function LanguagesMain() {
     return (
@@ -41,7 +42,7 @@ function LanguagesMain() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Turkish
+                                 Indian
                             </h3>
                             </div>
 
@@ -76,6 +77,23 @@ function LanguagesMain() {
                             <div className="desc">
                                 <h3>
                                     Spainish
+                            </h3>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="col-md-3 p-0">
+                    <div style={{ backgroundImage: `url('${TestImage}')` }} className="col-md-12 col-xs-12 each_card_">
+                        <div className="innerfade_">
+
+                        </div>
+                        <div className="row desc_container">
+                            <div className="desc">
+                                <h3>
+                                    Chineese
                             </h3>
                             </div>
 
