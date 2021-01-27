@@ -32,7 +32,7 @@ function LanguagesMain() {
                 <EachCulture image={MasalaChaiImage} title=" Masala Chai and Pakoda the Indian Way" price={15} description="Learn the intricacies of the preparation of Indian food & some of India’s best-known dishes by taking part in a fun electronic class."/>    */}
             </div>
 
-            <div className="row d-flex justify-content-around cards_">
+            <div className="row d-flex justify-content-between cards_">
 
                 <div className="col-md-3 p-0">
                     <div style={{ backgroundImage: `url('${TurkishCoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
@@ -76,7 +76,7 @@ function LanguagesMain() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Spainish
+                                    Spanish
                             </h3>
                             </div>
 
@@ -85,7 +85,7 @@ function LanguagesMain() {
                     </div>
                 </div>
 
-                <div className="col-md-3 p-0">
+                <div className="col-md-3 p-0  mt-4 ml-1">
                     <div style={{ backgroundImage: `url('${TestImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
