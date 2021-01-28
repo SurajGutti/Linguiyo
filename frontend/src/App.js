@@ -10,6 +10,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import CulturalExperience from './components/culture_experience_landing/CulturalExperience';
 import PostSingle from './components/blog_post/PostSingle';
 import VietnamPost from './components/vietnam_post/VietnamPost';
+import ItalyPost from './components/italy_post/ItalyPost';
 import KoreaPost from './components/korea_post/KoreaPost';
 import PunjabiPost from './components/punjabi_post/PunjabiPost';
 import HubPage from './components/the_hub/hub_page';
@@ -52,6 +53,7 @@ function App() {
       <Route exact path="/blog" component={HubPage} />
       <Route exact path="/posts/japan_blog" component={PostSingle} />
       <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
+      <Route exact path="/posts/italy_blog" component={ItalyPost} />
       <Route exact path="/posts/german_blog" component={GermanBlog} />
       <Route exact path="/posts/russian_blog" component={RussianBlog} />
 
