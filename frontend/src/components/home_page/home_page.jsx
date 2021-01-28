@@ -16,7 +16,7 @@ class HomePage extends React.Component {
                         </div>
                         <div className="col-sm intro-right">
                             <h2>Learn a new language and experience the culture!</h2>
-                            <button className="btn get-started">Get Started</button>
+                            <Link to="/cultural-experience-main" className="btn get-started">Get Started</Link>
                         </div>
                     </div>
                 </div>
