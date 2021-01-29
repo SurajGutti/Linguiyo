@@ -1,5 +1,6 @@
 import React from 'react'
 import './KoreaPost_style.css'
+import { Link } from 'react-router-dom';
 import one from './korea_images/1.jpg';
 import two from './korea_images/2.jpeg';
 import three from './korea_images/3.jpeg';
@@ -16,7 +17,7 @@ function KoreaPost() {
         <div className="korea_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <span>All Posts</span>  <span>Search</span>
+                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
@@ -213,6 +214,7 @@ function KoreaPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
                                         <h4>Rasode Mein Kon Tha?</h4>
@@ -222,11 +224,11 @@ function KoreaPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -244,11 +246,11 @@ function KoreaPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -266,11 +268,11 @@ function KoreaPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>

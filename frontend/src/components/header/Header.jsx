@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, Button, SplitButton } from 'react-bootstrap'
 import style from './header.module.css'
 import { Link } from 'react-router-dom';
 
@@ -14,18 +14,37 @@ export default function Header() {
                         <Navbar.Brand href="/"><img src="Logo.png" alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavDropdown title={<span className={style.navDropDownTitle}>Languages</span>} id="language-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2"></NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
-                        </NavDropdown>
+                        <div>
+                            {['down'].map((direction) => (
+                                <SplitButton
+                                    key={direction}
+                                    variant='none'
+                                    title={`Languages`}
+                                    href="/languages-main"
+                                >
+                                    <NavDropdown.Item href="/language-courses/hindi">Hindi</NavDropdown.Item>
+                                    <NavDropdown.Item href="/language-courses/french">French</NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="/language-courses/spanish">Spanish</NavDropdown.Item>
+                                    <NavDropdown.Item href="/language-courses/chinese">Chinese</NavDropdown.Item>
+                                </SplitButton>
+                            ))}
+                        </div>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavDropdown title={<span className={style.navDropDownTitle}>Cultural Experiences</span>} id="cultural-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2"></NavDropdown.Item>
-                        </NavDropdown>
+                        <div>
+                            {['down'].map((direction) => (
+                                <SplitButton
+                                    key={direction}
+                                    variant='none'
+                                    title={`Cultural Experiences`}
+                                    href="/cultural-experience-main"
+                                >
+                                    <NavDropdown.Item href="/cultural-experiences/1">Turkish</NavDropdown.Item>
+                                    <NavDropdown.Item href="/cultural-experiences/2">Indian</NavDropdown.Item>
+                                </SplitButton>
+                            ))}
+                        </div>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link className={style.navLinks} href="/blog">The Hub</Nav.Link>
@@ -36,6 +55,6 @@ export default function Header() {
                 </Nav>
             </Navbar>
 
-        </div>
+        </div >
     )
 }

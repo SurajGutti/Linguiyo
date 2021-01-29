@@ -1,6 +1,7 @@
 import React from 'react'
 import './russian.css'
 import logo from '../shared_assets/short_logo.png'
+import { Link } from 'react-router-dom';
 
 import MasalaChaiImage from './assets/Russian/photo-1563132178-829771864d6b.jpeg'
 import MasalaChaiImage2 from './assets/Russian/Screen Shot 2021-01-25 at 10.28.42 AM.png'
@@ -20,7 +21,7 @@ function RussianBlog() {
         <div className="blog_german container-fluid hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <span>All Posts</span>  <span><i className="fa fa-search"></i></span>
+                <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">

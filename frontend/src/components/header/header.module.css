@@ -27,6 +27,20 @@
     color: white !important;
 }
 
+button{
+    color: white !important;
+}
+
+a:only-of-type{
+    color: white !important;
+}
+
+
+.ui-splitbutton.custom-background-style .ui-button {
+    background: yellow;
+}
+
+
 .custom-sign-up-btn {
     background:  #1ABD9D !important;
     color: white !important;
