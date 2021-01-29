@@ -91,7 +91,7 @@ function LanguagesMain(props) {
 
                         </div>
                         <div className="row desc_container">
-                            <div className="desc">
+                            <div className=" desc">
                                 <h3>
                                     Chinese
                             </h3>
