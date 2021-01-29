@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './home_page_style.css'
-import Carousel from 'react-bootstrap/Carousel'
-
+import './home_page_style.css';
+import Carousel from 'react-bootstrap/Carousel';
+import Turkish from './home_images/1.JPG'
+import Indian from './home_images/2.jpg'
+import French from './home_images/3.jpg'
 class HomePage extends React.Component {
     render() {
         return (
@@ -40,19 +42,19 @@ class HomePage extends React.Component {
                         <div className="col-sm">
                             <h3>Turkish Coffee</h3>
                             <div className="culture-img">
-                                img
+                                <img src={Turkish} alt="turkish coffee" />
                             </div>
                         </div>
                         <div className="col-sm">
                             <h3>French Wine</h3>
                             <div className="culture-img">
-                                img
+                                <img src={Indian} alt="Indian chai" />
                             </div>
                         </div>
                         <div className="col-sm">
                             <h3>Indian Chai</h3>
                             <div className="culture-img">
-                                img
+                                <img src={French} alt="French Wine" />
                             </div>
                         </div>
                     </div>
