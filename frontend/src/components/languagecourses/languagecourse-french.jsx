@@ -7,6 +7,11 @@ class LanguageCourseFrench extends React.Component{
         super(props);
     }
 
+    componentDidMount(){
+    // From Sunkanmi: To ensure page scroll to top when navigated to
+    window.scrollTo(0,0)
+    }
+
     render(){
         return(
             <div>

@@ -6,7 +6,7 @@ import TurkishCoffeeImage from './assets/Turkish-images/4.JPG';
 import MasalaChaiImage from './assets/Indian-Chai-Images/2.jpg'
 import TestImage from './assets/Indian-Chai-Images/3.jpg'
 import CoffeeImage from './assets/Turkish-images/3.jpeg';
-function LanguagesMain() {
+function LanguagesMain(props) {
     return (
         <div className="container-fluid mt-4 language_main">
             <div>
@@ -34,7 +34,7 @@ function LanguagesMain() {
 
             <div className="row d-flex justify-content-between cards_">
 
-                <div className="col-md-3 p-0">
+                <div onClick={()=> props.history.push('/language-courses/hindi')} className="col-md-3 p-0">
                     <div style={{ backgroundImage: `url('${TurkishCoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
@@ -42,7 +42,7 @@ function LanguagesMain() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                 Indian
+                                 Hindi
                             </h3>
                             </div>
 
@@ -52,7 +52,7 @@ function LanguagesMain() {
 
                     </div>
                 </div>
-                <div className="col-md-3 p-0">
+                <div onClick={()=> props.history.push('/language-courses/french')} className="col-md-3 p-0">
                     <div style={{ backgroundImage: `url('${MasalaChaiImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
@@ -68,7 +68,7 @@ function LanguagesMain() {
 
                     </div>
                 </div>
-                <div className="col-md-3 p-0">
+                <div onClick={()=> props.history.push('/language-courses/spanish')}  className="col-md-3 p-0">
                     <div style={{ backgroundImage: `url('${CoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
@@ -85,7 +85,7 @@ function LanguagesMain() {
                     </div>
                 </div>
 
-                <div className="col-md-3 p-0  mt-4 ml-1">
+                <div onClick={()=> props.history.push('/language-courses/chinese')} className="col-md-3 p-0  mt-4 ml-1">
                     <div style={{ backgroundImage: `url('${TestImage}')` }} className="col-md-12 col-xs-12 each_card_">
                         <div className="innerfade_">
 
@@ -93,7 +93,7 @@ function LanguagesMain() {
                         <div className="row desc_container">
                             <div className="desc">
                                 <h3>
-                                    Chineese
+                                    Chinese
                             </h3>
                             </div>
 
