@@ -27,7 +27,7 @@ class HubPage extends React.Component {
             <div className="hub-background container-fluid">
                 <div className="col-md-12  blog-inner">
                     <div className="row justify-content-between d-flex menu_1">
-                        <span>All Posts</span>  <span>Search</span>
+                        <Link to="/blog">All Posts</Link>  <span>Search</span>
                     </div>
 
                     {/* Raside Mein Kon Tha */}
@@ -446,7 +446,7 @@ class HubPage extends React.Component {
 
 
                     {/* English */}
-                    <Link>
+                    <Link to="/posts/eng_post">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -468,7 +468,7 @@ class HubPage extends React.Component {
                                     <div className="main-content">
                                         <div className="title-description">
                                             <h2>Learning English Culture while chilling on Netflix!</h2>
-                                            <p>Learning the English language it is not all about grammar, writing, and linguistics it is just as important to understand the culture because language and culture come hand in hand.English culture has spread around the globe and influenced many different nations with their literature, music, customs, cuisine, and invention. Not just English-speaking nations such as America, Australia, and Canada.</p>
+                                            <p>Learning the English language it is not all about grammar, writing, and linguistics it is just as important to understand the culture because language and culture come hand in hand.English culture has spread around the globe and influenced many different nations with their literature, music, customs, cuisine, and invention.</p>
                                         </div>
                                         <hr />
                                         <div className="views-comments">
@@ -486,7 +486,7 @@ class HubPage extends React.Component {
 
 
                     {/* Mandarin */}
-                    <Link>
+                    <Link to="/posts/mnd_post">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -569,7 +569,7 @@ class HubPage extends React.Component {
 
 
                     {/* Hindi */}
-                    <Link>
+                    <Link to="/posts/hin_post">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">

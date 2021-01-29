@@ -1,14 +1,20 @@
-footer {
-    background-color: #777;
-    padding: 10px;
+.footer {
+    /* background-color: #777; */
+    background-color: #111111;
+    /* padding: 10px; */
+    padding: 2em;
     text-align: center;
     color: white;
+    padding-left: 70px;
+    padding-right: 100px;
 }
+
 
 footer li {
     display: inline-block;
     padding: 2rem;
     color: white;
+    text-align: left;
 }
 
 footer li a{
@@ -20,3 +26,19 @@ footer li a:hover{
     text-decoration: none;
 }
 
+.footer-col-left {
+    text-align: left;
+}
+
+.footer-col-right {
+    text-align: right;
+}
+
+.footer-row {
+    margin-bottom: 30px;
+}
+
+.footer-img {
+    padding-left: 10px;
+    padding-right: 10px;
+}

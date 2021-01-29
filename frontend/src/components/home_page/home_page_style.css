@@ -101,6 +101,13 @@ body{
 	color: #FFFFFF;
 }
 
+@media screen and (max-width:1400px) {
+    .cultural-exp{
+        height: 74rem;
+    }
+}
+
+
 .cultural-exp h2{
 	font-size: 25px;
 	text-align: center;

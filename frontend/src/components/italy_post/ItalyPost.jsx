@@ -1,200 +1,191 @@
 import React from 'react'
-import './PostSingle.css'
 import { Link } from 'react-router-dom';
+import './ItalyPost_style.css'
+import one from './italy_images/1.jpeg';
+import two from './italy_images/2.jpeg';
+import three from './italy_images/3.jpeg';
+import four from './italy_images/4.jpeg';
+import five from './italy_images/5.jpeg';
+import six from './italy_images/6.jpeg';
+import seven from './italy_images/7.jpeg';
+import eight from './italy_images/8.jpeg';
+import nine from './italy_images/9.jpeg';
+import ten from './italy_images/10.jpeg';
 
-function PostSingle() {
+export default function ItalyPost() {
+
     return (
-        <div className="blog_single container-fluid">
+        <div className="italy_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
+                    <Link to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
 
                     <div className="row justify-content-between d-flex menu_">
-                        <span>Linguiyo Jun 5, 2020 2 min read</span>
+                        <span>Linguiyo May 28, 2020 2 min read</span>
                         <span>Menu</span>
                     </div>
 
-                    <h1>Anime will lead your way to learn Japanese!</h1>
+                    <h1>Passion, Love &and Class, Welcome to Italy</h1>
 
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={one} alt="one" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={two} alt="two" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={three} alt="three" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={four} alt="four" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={five} alt="five" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={six} alt="six" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={seven} alt="seven" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={eight} alt="eight" />
                             </div>
+
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
+                                <img src={nine} alt="nine" />
                             </div>
-
                         </div>
                     </div>
 
-                    <div>
+                    {/* <div> */}
+                        <div className="col-md-12 subhead p-0">
+                            <h2>Why learn about Italy?</h2>
+                        </div>
                         <p>
-                            Since WWII all Japanese students have studied English at school and the English language is the most spoken second language in Japan behind Japanese of course.
-
-
+                             In 2020 people will tell you that you will be better off learning Mandarin or Spanish than Italian? Of course, it is not as popular in business as the languages just mentioned; however, it is still an extremely useful language to speak and not just that it is more of a niche language that can create amazing opportunities for you and your career in the future.
                         </p>
                         <p>
-                            English is mostly used in Business settings but Japanese culture will pretend to understand more English than they actually do because they are such a polite nation.
-
-
+                            Not only that but Italian is a gorgeous language with style and charisma like no other. The passion and expression you need to deliver to a local native really bring a special connection when speaking and listening to an Italian.
                         </p>
                         <p>
-                            When you are learning Japanese and talking to natives of Japan whether you are speaking English or Japanese speak slowly and precisely and in short sentences to get your point across clearly.
-
-                            Do not ask rhetorical questions and as much as you can avoid using idioms.
+                             There are over 65 million people who speak Italian as their native first language, other countries with a large number of people speaking Italian are; Switzerland, Romania, Slovenia, and Bosnia.
                         </p>
-                    </div>
-
-                    <div className="row">
+                        <p>
+                             Italian speaking will also be found in multicultural Cities across the World and especially in New York where Italian Americans still often learn and speak Italian with their older generations.
+                        </p>
+                    {/* </div> */}
+                    {/* <div className="row"> */}
+                    <div className="row p-0">
                         <div className="col-md-12 subhead">
-                            <h2>Writing in Japanese </h2>
+                            <h2>Italian’s Export Beauty</h2>
                         </div>
                         <div className="col-md-6">
-
+                         {/* <ul className="pl-5 mt-2"> */}
+                         <ul>
                             <p>
-                                Study with supervision. When you write in Japanese you will be judged on every stroke. In English if you write letters slightly different it is not judged in a bad light it is just your own unique handwriting, but when you are writing in Japanese you will be looked at as being lazy or you did not want to learn correctly.
+                                The world would be a very different place if we took out all of the Italian influence, art, ideas, philosophies, and literature from existence. Imagine a world without masters like Michelangelo, Da Vinci, and Botticelli. You cannot, right?
                             </p>
-
+                            <p>
+                                 Fashion moguls like Dolce and Gabanna, Salvatore Ferragamo, or even Giorgio Armani have Italian as their native first language and amazingly we haven’t even got started talking about the Italian ingenious car designs and models from Ferrari, Bugatti, and Lamborghini.
+                            </p>
+                            <p>
+                                The perfect blend of sophistication, style, sexiness, and ingenuity. Italian culture is full of this passion for innovation and doing this impossible.
+                            </p>
+                           
+                            </ul>
                         </div>
+
                         <div className="col-md-6 p-3">
                             <div className="p_right">
-
+                                 <img src={ten} alt="ten" />
                             </div>
                         </div>
+
+                        <div className="p-3">
+                            <p>
+                                When you choose to learn a new language it helps if you actually enjoying hearing the sounds and flow common in the language. In this instance, Italian is a no brainer because you can’t find many languages more enjoyable to listen to for hours on end.
+                            </p>
+                            <p>
+                                A love language with rhythm and melody is known as the language of seduction is another reason why young adults are drawn to learning this sweet-sounding language and culture.
+                            </p>
+                            <p>
+                                You will find when visiting Italy is there are fewer Italians who speak fluent English than other major European countries like Spain, France, and Germany.
+
+                                Italians learn some English in schools, but it is not as common to be fluent in English.
+                            </p>
+                            <p>
+                                Learning Italian as an English speaker will open up great opportunities on your travels with locals and work opportunities. Italians love to hear foreigners try to speak their language and will embrace you and look at you more than just another foreign tourist too lazy to even try.
+                            </p>
+                        </div>
+
                     </div>
-
-                    <div>
-                        <p>
-                            This is the same when you are eating in public or at a guest's house using chopsticks. If you do not use them the correct way in Japanese culture it will be looked at and noticed.
-                        </p>
-                        <p>
-                            The basics of Kanji knowing the difference between stopping the pen stroke with a sudden halt and with a swoosh. This is something you need to understand when learning to write in Japanese.
-                        </p>
-                        <p>
-                            You must focus on the hard parts and fundamentals of Japanese. Basic conversation, learning about family names, and time and particles will be essential when you first get started learning this language.
-                        </p>
-                        <p>
-                            Repetition, repetition, and finally repetition as this language can be one of the hardest languages to learn as a Western native.
-                        </p>
-                    </div>
+                
 
 
-                    <div className="row">
+                        
+                        
+
+                    <div className="row p-0">
                         <div className="col-md-12 subhead">
-                            <h2>Cartoons, Drama’s and Anime  </h2>
+                            <h2>Get out of your comfort zone.</h2>
                         </div>
-                        <div className="col-md-6">
-
+                        <div className="col-md-12">
                             <p>
-                                Anime and Manga comics have blown up in western culture and have created a massive fan base across the world showing Japanese culture and their love for telling stories in new and original mediums.
+                                Conversing with Italians native will help you improve your ear and your pronunciation. And focus on smaller towns and villages in areas where most people you come across will speak no English. It will force you out of your comfort zone to try harder to talk and understand the locals.
                             </p>
                             <p>
-                                By reading official translations in both English and Japanese this is a perfectly entertaining way to keep your mind active and not bored while also learning while you have fun.
+                                If you want to immerse yourself into this beautiful language please click to enquire now.
                             </p>
-
-                        </div>
-                        <div className="col-md-6 p-3">
-                            <div className="p_right">
-
-                            </div>
-                            {/* <img src="" alt="article_page"/> */}
+                            
                         </div>
                     </div>
 
-
-
-
-
-
-
-                    <div>
-                        <p>
-                            Manga and Anime can also be a simple language that will be easier to understand and learn so it will be a great start before trying to read very difficult literature with a much larger vocabulary.
-                        </p>
-                    </div>
-                    <p>
-                        <div className="col-md-12 subhead h_2">
-                            <h2>Translation </h2>
-                        </div>
-
-                        <div>
-                            <p>
-                                You can practice translating these comics word for word from Japanese to English to help you with the language and the context which will expand your vocabulary. But you should also read newspapers because this will offer more useful words that you will use in everyday life.
-                        </p>
-                            <p>
-                                Japan is a culture of politeness, invention, efficiency, and punctuality. Their bullet trains are the fastest in the world and if they are 10 seconds late your journey is free. This says everything about this fascinating and impressive nation of bold ideas and innovation.
-                        </p>
-                            <p>
-                                If you want to immerse yourself into this beautiful language please click to <span className="text-danger link_">enquire now</span>.
-                        </p>
-                        </div>
-                    </p>
-
-
+                    
+                   
 
 
 
                     <div className="row medias_">
                         <div>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-
+                            <span><i className="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-twitter" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-linkedin" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-link" aria-hidden="true"></i></span>
                         </div>
-
                     </div>
+                   
                     <div className="row justify-content-between d-flex medias_2">
 
                         <div>
@@ -202,12 +193,12 @@ function PostSingle() {
                             <span>0 comments</span>
                         </div>
 
-                        <span>1 O</span>
+                        <span >1 <span className="text-danger"><i className="fa fa-heart" aria-hidden="true"></i> </span></span>
                     </div>
 
 
                 </div>
-                <div>
+                    <div>
                     <div className="py-4 row justify-content-between px-3 d-flex">
                         <span>Recent Posts</span>
                         <span>See All</span>
@@ -291,9 +282,10 @@ function PostSingle() {
 
                 </div>
 
-            </div>
+            
         </div>
+        </div>
+      
     )
 }
 
-export default PostSingle

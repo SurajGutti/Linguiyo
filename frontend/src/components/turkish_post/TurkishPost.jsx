@@ -1,5 +1,6 @@
 import React from 'react';
 import './TurkishPost_style.css';
+import { Link } from 'react-router-dom';
 import one from './turkish_images/1.jpeg';
 import two from './turkish_images/2.jpeg';
 import three from './turkish_images/3.jpeg';
@@ -17,7 +18,7 @@ function TurkishPost() {
         <div className="turkish_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <span>All Posts</span>  <span>Search</span>
+                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
@@ -217,11 +218,11 @@ function TurkishPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -239,11 +240,11 @@ function TurkishPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
@@ -261,11 +262,11 @@ function TurkishPost() {
                                 <div className="row justify-content-between d-flex px-4">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span><i class="eye icon"></i> 14</span>
+                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>O <i class="heart outline icon"></i></span>
                                 </div>
 
                             </div>
