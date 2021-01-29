@@ -1,0 +1,106 @@
+.language_main .video_container {
+    height: 270px;
+
+    border-radius: 10px !important;
+    margin-bottom: 40px;
+}
+
+.language_main h1.text-center {
+    font-size: 22px !important;
+    font-weight: bolder !important;
+    margin: 25px 0;
+}
+
+.language_main .each_card_ {
+    border: 1px solid white;
+    min-height: 260px;
+    padding: 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border-radius: 10px !important;
+
+}
+
+.language_main .cards_ {
+    padding: 10px 130px !important;
+    margin-top: 150px;
+}
+
+.language_main .innerfade_ {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    border-radius: 10px !important;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s linear;
+    z-index: 1 !important;
+}
+
+.language_main .innerfade_:hover {
+    opacity: 1;
+
+}
+
+.language_main .desc {
+    height: 80px !important;
+    width: 100% !important;
+    opacity: 0.95;
+    margin-top: 180px !important;
+    background-color: white !important;
+    position: relative !important;
+    padding-left: 14px !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px !important;
+    z-index: 2 !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+
+}
+
+.language_main .desc h3 {
+    color: black;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+}
+
+.language_main .desc_container {
+
+    padding: 0 15px !important;
+}
+
+.language_main .player-wrapper {
+    position: relative;
+    height: 59vh !important;
+    border-radius: 10px;
+
+}
+
+.language_main .react-player {
+    
+    position: absolute;
+    top: 0;
+    /* height:50vh; */
+
+    left: 0;
+}
+
+@media screen and (max-width:768px) {
+    .language_main .cards_ {
+        margin-top: 20px;
+        padding: 20px 30px !important;
+    }
+
+    .language_main .cards_ .each_card_ {
+        margin-top: 30px;
+    }
+
+    .language_main .player-wrapper {
+
+        height: 40vh !important;
+
+
+    }
+}

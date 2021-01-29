@@ -1,24 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import vietnam from './images/vietnam.jpg'
-import korea from './images/korea.jpg'
-import punjabi from './images/punjabi.jpg'
-import china from './images/china.jpg'
-import english from './images/english.jpg'
-import france from './images/france.jpg'
-import german from './images/german.jpg'
-import hindi from './images/hindi.jpg'
-import italy from './images/italy.jpg'
-import japan from './images/japan.jpg'
-import languages from './images/languages.jpg'
-import learning from './images/learning.jpg'
-import portugal from './images/portugal.jpg'
-import russia from './images/russia.jpg'
-import turkey from './images/turkey.jpg'
-import logo from './images/logo.png'
-import ReactPlayer from "react-player"
-import './hub_page_style.css'
+import vietnam from './images/vietnam.jpg';
+import korea from './images/korea.jpg';
+import punjabi from './images/punjabi.jpg';
+import china from './images/china.jpg';
+import english from './images/english.jpg';
+import france from './images/france.jpg';
+import german from './images/german.jpg';
+import hindi from './images/hindi.jpg';
+import italy from './images/italy.jpg';
+import japan from './images/japan.jpg';
+import languages from './images/languages.jpg';
+import learning from './images/learning.jpg';
+import portugal from './images/portugal.jpg';
+import russia from './images/russia.jpg';
+import turkey from './images/turkey.jpg';
+import logo from './images/logo.png';
+import ReactPlayer from "react-player";
+import './hub_page_style.css';
 import 'font-awesome/css/font-awesome.css';
 
 class HubPage extends React.Component {
@@ -78,7 +78,7 @@ class HubPage extends React.Component {
 
 
                     {/* Vietnam */}
-                    <Link to="/posts/2">
+                    <Link to="/posts/vietnam_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -120,7 +120,7 @@ class HubPage extends React.Component {
 
 
                     {/* Korea */}
-                    <Link>
+                    <Link to="/posts/korea_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -163,7 +163,7 @@ class HubPage extends React.Component {
 
 
                     {/* Punjabi */}
-                    <Link>
+                    <Link to="/posts/punjabi_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -243,7 +243,7 @@ class HubPage extends React.Component {
 
                     {/* Japanese */}
 
-                    <Link to="/posts/1">
+                    <Link to="/posts/japan_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -282,7 +282,7 @@ class HubPage extends React.Component {
                     </Link>
 
                     {/* German */}
-                    <Link>
+                    <Link to="/posts/german_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -324,7 +324,7 @@ class HubPage extends React.Component {
 
 
                     {/* Russia */}
-                    <Link>
+                    <Link to="/posts/russian_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -526,7 +526,7 @@ class HubPage extends React.Component {
 
 
                     {/* Turkish */}
-                    <Link>
+                    <Link to="/posts/turkish_post">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
