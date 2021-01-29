@@ -12,6 +12,10 @@ class CulturalExpShow extends React.Component{
     constructor(props){
         super(props);
     }
+     //from Sunkanmi:  this is to make sure the page scroll to the top when navigated to it
+     componentDidMount(){
+        window.scrollTo(0,0)
+    }
 
     render(){
         return(
