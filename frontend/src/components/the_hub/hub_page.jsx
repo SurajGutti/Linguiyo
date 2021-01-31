@@ -468,7 +468,7 @@ class HubPage extends React.Component {
                                     <div className="main-content">
                                         <div className="title-description">
                                             <h2>Learning English Culture while chilling on Netflix!</h2>
-                                            <p>Learning the English language it is not all about grammar, writing, and linguistics it is just as important to understand the culture because language and culture come hand in hand.English culture has spread around the globe and influenced many different nations with their literature, music, customs, cuisine, and invention. Not just English-speaking nations such as America, Australia, and Canada.</p>
+                                            <p>Learning the English language it is not all about grammar, writing, and linguistics it is just as important to understand the culture because language and culture come hand in hand.English culture has spread around the globe and influenced many different nations with their literature, music, customs, cuisine, and invention.</p>
                                         </div>
                                         <hr />
                                         <div className="views-comments">

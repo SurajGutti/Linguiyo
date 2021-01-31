@@ -101,6 +101,13 @@ body{
 	color: #FFFFFF;
 }
 
+@media screen and (max-width:1400px) {
+    .cultural-exp{
+        height: 74rem;
+    }
+}
+
+
 .cultural-exp h2{
 	font-size: 25px;
 	text-align: center;
@@ -119,10 +126,8 @@ body{
 }
 
 .culture-img{
-	background-color: white;
 	padding: 1rem;
-	height: 15rem;
-	margin: 1rem;
+	height: 17rem;
 	border-radius: 10%;
 }
 
@@ -198,4 +203,8 @@ body{
 	margin: 0 !important;
 }
 
+img{
+	height: 100%;
+	width: 100%;
+}
 
