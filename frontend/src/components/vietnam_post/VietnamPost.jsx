@@ -16,10 +16,11 @@ import ten from './vietnam_images/10.jpeg';
 
 function VietnamPost() {
     return (
-        <div className="vietnam_blog container-fluid">
+        <div className="vietnam_blog container-fluid hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
+                    <Link className="all-post" to="/blog">All Posts</Link>
+                    <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">

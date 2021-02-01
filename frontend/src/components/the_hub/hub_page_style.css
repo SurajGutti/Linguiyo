@@ -134,6 +134,10 @@ a:hover{
     padding-right: 2rem;
 }
 
+.all-post{
+    color: black !important;
+}
+
 @media screen and (max-width:1400px) {
     .row{
         display: block;
