@@ -1,6 +1,17 @@
 import React from 'react'
 import './blogPost.css'
 import { Link } from 'react-router-dom';
+import img1 from './images/mandarin/1.jpeg';
+import img2 from './images/mandarin/2.jpeg';
+import img3 from './images/mandarin/3.jpeg';
+import img4 from './images/mandarin/4.jpeg';
+import img6 from './images/mandarin/6.jpeg';
+import img7 from './images/mandarin/7.jpeg';
+import img8 from './images/mandarin/8.jpeg';
+import img9 from './images/mandarin/9.jpeg';
+import img10 from './images/mandarin/10.png';
+import img11 from './images/mandarin/11.jpeg';
+import img12 from './images/mandarin/12.jpeg';
 
 
 function MandarinPost() {
@@ -25,31 +36,49 @@ function MandarinPost() {
 
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img1}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img2}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img3}/>
+                            </div>
                         </div>
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img4}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img11}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img6}/>
+                            </div>
                         </div>
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img7}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img8}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img9}/>
+                            </div>
                         </div>
                     </div>
 
@@ -74,7 +103,7 @@ function MandarinPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img class="ui centered medium image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" />
+                            <img src={img10}/>
                         </div>
                     </div>
 
@@ -107,7 +136,7 @@ function MandarinPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img class="ui centered medium image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" />
+                            <img src={img11}/>
                         </div>
                     </div>
 
@@ -139,8 +168,9 @@ function MandarinPost() {
                                 However just like Italian culture the Chinese go above and beyond to look after their elders and make the family name and honor proudly.
                             </p>
                         </div>
-                        <div className="col-md-5 p-3" style={{ left: '10%' }}>
+                        <div className="col-md-4 p-3" style={{ left: '10%' }}>
                             <div className="p_right">
+                                <img src={img12}/>
                             </div>
                         </div>
                     </div>

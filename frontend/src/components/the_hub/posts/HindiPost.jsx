@@ -1,6 +1,17 @@
 import React from 'react'
 import './blogPost.css'
 import { Link } from 'react-router-dom';
+import img1 from './images/hindi/1.jpeg';
+import img2 from './images/hindi/2.jpeg';
+import img3 from './images/hindi/3.jpeg';
+import img4 from './images/hindi/4.jpeg';
+import img5 from './images/hindi/5.jpg';
+import img6 from './images/hindi/6.jpeg';
+import img7 from './images/hindi/7.jpeg';
+import img8 from './images/hindi/8.jpeg';
+import img9 from './images/hindi/9.jpeg';
+import img10 from './images/hindi/10.png';
+import img11 from './images/hindi/11.jpeg';
 
 
 function HindiPost() {
@@ -25,31 +36,49 @@ function HindiPost() {
 
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img1}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img2}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img3}/>
+                            </div>
                         </div>
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img4}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img5}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img6}/>
+                            </div>
                         </div>
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img7}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img8}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img9}/>
+                            </div>
                         </div>
                     </div>
 
@@ -134,7 +163,7 @@ function HindiPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img class="ui centered large image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" />
+                            <img src={img10}/>
                         </div>
                     </div>
 
@@ -159,7 +188,7 @@ function HindiPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img class="ui centered medium image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" />
+                            <img src={img11}/>    
                         </div>
                     </div>
 

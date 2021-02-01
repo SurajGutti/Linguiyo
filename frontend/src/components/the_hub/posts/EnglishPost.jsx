@@ -1,6 +1,9 @@
 import React from 'react'
 import './blogPost.css'
 import { Link } from 'react-router-dom';
+import img1 from './images/english/1.png';
+import img2 from './images/english/2.png';
+import img3 from './images/english/3.jpeg';
 
 
 function EnglishPost() {
@@ -25,13 +28,19 @@ function EnglishPost() {
 
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img1}/>
+                            </div>
                         </div>
                         <div className="col-md-4   p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img2}/>
+                            </div>
                         </div>
                         <div className="col-md-4  p-1">
-                            <div className=" each_card"></div>
+                            <div className=" each_card">
+                                <img src={img3}/>
+                            </div>
                         </div>
                     </div>
 
@@ -99,9 +108,6 @@ function EnglishPost() {
                         </div>
 
                         <div className="row">
-                            <div className="col-md-12 subhead">
-                                <h2>Learning Hangul </h2>
-                            </div>
                             <div className="col-md-6">
                                 <p>
                                     Jurgen Klopp the Liverpool football Manager famously stated he learned English as a German native watching Friends. A perfect series with pretty basic dialogue and an easy storyline can make learning English fun, interesting, and engaging.
@@ -111,6 +117,7 @@ function EnglishPost() {
 
                             <div className="col-md-6 p-3">
                                 <div className="p_right">
+                                    <img src={img3}/>
                                 </div>
                             </div>
                         </div>
