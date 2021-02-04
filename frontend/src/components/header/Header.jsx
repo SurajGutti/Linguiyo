@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Nav, NavDropdown, Button, SplitButton } from 'react-bootstrap'
 import style from './header.module.css'
 import { Link } from 'react-router-dom';
+import logo from './header_images/Logo.png'
 
 
 
@@ -11,7 +12,7 @@ export default function Header() {
             <Navbar variant="dark" bg="dark" sticky="top"  >
                 <Nav className="container-fluid" style={{ paddingLeft: 70, paddingRight: 70 }}>
                     <Nav.Item>
-                        <Navbar.Brand href="/"><img src="Logo.png" alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
+                        <Navbar.Brand href="/"><img src={logo} alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
                     </Nav.Item>
                     <Nav.Item>
                         <div>

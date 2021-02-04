@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav,Button,Container, Row, Col } from 'react-bootstrap'
 import  style from './footer_style.css'
+import facebook from './footer_images/facebook.svg';
+import instagram from './footer_images/instagram.svg';
+import twitter from './footer_images/twitter.svg';
+
 
 class Footer extends React.Component {
     constructor(props) {
@@ -36,9 +40,12 @@ class Footer extends React.Component {
                     <Col></Col>  
                     <Col className="footer-col-right">
                         <Row>
-                            <Col><img src="facebook.svg" width="30" height="30" /> </Col>
-                            <Col><img src="twitter.svg"  width="30" height="30" /> </Col>
-                            <Col><img src="instagram.svg" width="30" height="30" /> </Col>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col></Col>
+                            <Col><img src={facebook} /> </Col>
+                            <Col><img src={twitter} /> </Col>
+                            <Col><img src={instagram} /> </Col>
                         </Row>
                     </Col>
                 </Row>
