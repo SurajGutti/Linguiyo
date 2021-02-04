@@ -5,7 +5,7 @@ import UserShow from './components/users/user_show';
 import HomePage from './components/home_page/home_page';
 import CulturalExpShow from './components/cultural_experiences_show/cultural_exp_show';
 // import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/Footer';
+import Footer from './components/footer/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
 import CulturalExperience from './components/culture_experience_landing/CulturalExperience';
 import PostSingle from './components/blog_post/PostSingle';
