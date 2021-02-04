@@ -18,7 +18,8 @@ export default function ItalyPost() {
         <div className="italy_blog container-fluid">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
+                    <Link className="all-post" to="/blog">All Posts</Link>
+                    <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
@@ -90,20 +91,20 @@ export default function ItalyPost() {
                     </div>
 
                     {/* <div> */}
-                        <div className="col-md-12 subhead p-0">
-                            <h2>Why learn about Italy?</h2>
-                        </div>
-                        <p>
-                             In 2020 people will tell you that you will be better off learning Mandarin or Spanish than Italian? Of course, it is not as popular in business as the languages just mentioned; however, it is still an extremely useful language to speak and not just that it is more of a niche language that can create amazing opportunities for you and your career in the future.
+                    <div className="col-md-12 subhead p-0">
+                        <h2>Why learn about Italy?</h2>
+                    </div>
+                    <p>
+                        In 2020 people will tell you that you will be better off learning Mandarin or Spanish than Italian? Of course, it is not as popular in business as the languages just mentioned; however, it is still an extremely useful language to speak and not just that it is more of a niche language that can create amazing opportunities for you and your career in the future.
                         </p>
-                        <p>
-                            Not only that but Italian is a gorgeous language with style and charisma like no other. The passion and expression you need to deliver to a local native really bring a special connection when speaking and listening to an Italian.
+                    <p>
+                        Not only that but Italian is a gorgeous language with style and charisma like no other. The passion and expression you need to deliver to a local native really bring a special connection when speaking and listening to an Italian.
                         </p>
-                        <p>
-                             There are over 65 million people who speak Italian as their native first language, other countries with a large number of people speaking Italian are; Switzerland, Romania, Slovenia, and Bosnia.
+                    <p>
+                        There are over 65 million people who speak Italian as their native first language, other countries with a large number of people speaking Italian are; Switzerland, Romania, Slovenia, and Bosnia.
                         </p>
-                        <p>
-                             Italian speaking will also be found in multicultural Cities across the World and especially in New York where Italian Americans still often learn and speak Italian with their older generations.
+                    <p>
+                        Italian speaking will also be found in multicultural Cities across the World and especially in New York where Italian Americans still often learn and speak Italian with their older generations.
                         </p>
                     {/* </div> */}
                     {/* <div className="row"> */}
@@ -112,24 +113,24 @@ export default function ItalyPost() {
                             <h2>Italian’s Export Beauty</h2>
                         </div>
                         <div className="col-md-6">
-                         {/* <ul className="pl-5 mt-2"> */}
-                         <ul>
-                            <p>
-                                The world would be a very different place if we took out all of the Italian influence, art, ideas, philosophies, and literature from existence. Imagine a world without masters like Michelangelo, Da Vinci, and Botticelli. You cannot, right?
+                            {/* <ul className="pl-5 mt-2"> */}
+                            <ul>
+                                <p>
+                                    The world would be a very different place if we took out all of the Italian influence, art, ideas, philosophies, and literature from existence. Imagine a world without masters like Michelangelo, Da Vinci, and Botticelli. You cannot, right?
                             </p>
-                            <p>
-                                 Fashion moguls like Dolce and Gabanna, Salvatore Ferragamo, or even Giorgio Armani have Italian as their native first language and amazingly we haven’t even got started talking about the Italian ingenious car designs and models from Ferrari, Bugatti, and Lamborghini.
+                                <p>
+                                    Fashion moguls like Dolce and Gabanna, Salvatore Ferragamo, or even Giorgio Armani have Italian as their native first language and amazingly we haven’t even got started talking about the Italian ingenious car designs and models from Ferrari, Bugatti, and Lamborghini.
                             </p>
-                            <p>
-                                The perfect blend of sophistication, style, sexiness, and ingenuity. Italian culture is full of this passion for innovation and doing this impossible.
+                                <p>
+                                    The perfect blend of sophistication, style, sexiness, and ingenuity. Italian culture is full of this passion for innovation and doing this impossible.
                             </p>
-                           
+
                             </ul>
                         </div>
 
                         <div className="col-md-6 p-3">
                             <div className="p_right">
-                                 <img src={ten} alt="ten" />
+                                <img src={ten} alt="ten" />
                             </div>
                         </div>
 
@@ -151,11 +152,11 @@ export default function ItalyPost() {
                         </div>
 
                     </div>
-                
 
 
-                        
-                        
+
+
+
 
                     <div className="row p-0">
                         <div className="col-md-12 subhead">
@@ -168,12 +169,12 @@ export default function ItalyPost() {
                             <p>
                                 If you want to immerse yourself into this beautiful language please click to enquire now.
                             </p>
-                            
+
                         </div>
                     </div>
 
-                    
-                   
+
+
 
 
 
@@ -185,7 +186,7 @@ export default function ItalyPost() {
                             <span><i className="fa fa-link" aria-hidden="true"></i></span>
                         </div>
                     </div>
-                   
+
                     <div className="row justify-content-between d-flex medias_2">
 
                         <div>
@@ -198,7 +199,7 @@ export default function ItalyPost() {
 
 
                 </div>
-                    <div>
+                <div>
                     <div className="py-4 row justify-content-between px-3 d-flex">
                         <span>Recent Posts</span>
                         <span>See All</span>
@@ -282,10 +283,10 @@ export default function ItalyPost() {
 
                 </div>
 
-            
+
+            </div>
         </div>
-        </div>
-      
+
     )
 }
 

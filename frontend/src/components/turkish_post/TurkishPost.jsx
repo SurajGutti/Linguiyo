@@ -15,10 +15,11 @@ import eleven from './turkish_images/11.jpg';
 
 function TurkishPost() {
     return (
-        <div className="turkish_blog container-fluid">
+        <div className="turkish_blog container-fluid hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link>  <span><i className="fa fa-search"></i></span>
+                    <Link className="all-post" to="/blog">All Posts</Link>
+                    <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">

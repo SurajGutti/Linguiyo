@@ -27,7 +27,7 @@ class HubPage extends React.Component {
             <div className="hub-background container-fluid">
                 <div className="col-md-12  blog-inner">
                     <div className="row justify-content-between d-flex menu_1">
-                        <Link to="/blog">All Posts</Link>  <span>Search</span>
+                        <Link className="all-post" to="/blog">All Posts</Link>  <span>Search</span>
                     </div>
 
                     {/* Raside Mein Kon Tha */}
@@ -364,7 +364,7 @@ class HubPage extends React.Component {
 
 
                     {/* Italy */}
-                    <Link>
+                    <Link to="/posts/italy_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -631,7 +631,7 @@ class HubPage extends React.Component {
                                     <div className="main-content">
                                         <div className="title-description">
                                             <h2>Why Learning Language is Important for our Future of Communication?</h2>
-                                            <p>Language: the basic, fundamental building block for communication across all cultures. Language is the one thing that connects us as human beings and yet divides us, causing barriers to our understanding. There are apparent daily advantages to learning a language, whether that be a foreign language or simply improving your natal language skills.</p>
+                                            <p>Language: the basic, fundamental building block for communication across all cultures. Language is the one thing that connects us as human beings and yet divides us, causing barriers to our understanding.</p>
                                         </div>
                                         <hr />
                                         <div className="views-comments">

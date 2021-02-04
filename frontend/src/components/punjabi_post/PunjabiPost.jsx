@@ -13,10 +13,11 @@ import nine from './punjabi_images/9.jpg';
 
 function PunjabiPost() {
     return (
-        <div className="punjabi_blog container-fluid">
+        <div className="punjabi_blog container-fluid hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link>   <span><i className="fa fa-search"></i></span>
+                    <Link className="all-post" to="/blog">All Posts</Link>
+                    <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
