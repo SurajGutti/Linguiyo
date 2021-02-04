@@ -18,7 +18,7 @@ class HomePage extends React.Component {
                         </div>
                         <div className="col-sm intro-right">
                             <h2>Learn a new language and experience the culture!</h2>
-                            <Link to="/cultural-experience-main" className="btn get-started">Get Started</Link>
+                            <Link to="/languages-main" className="btn get-started">Get Started</Link>
                         </div>
                     </div>
                 </div>
@@ -37,22 +37,26 @@ class HomePage extends React.Component {
                     </div>
                 </div>
                 <div className="cultural-exp">
-                    <h2>Cultural Experiences</h2>
+                <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
                     <div className="row">
                         <div className="col-sm">
+                            <a href = "/cultural-experiences/1">
                             <h3>Turkish Coffee</h3>
                             <div className="culture-img">
                                 <img src={Turkish} alt="turkish coffee" />
                             </div>
+                            </a>
                         </div>
                         <div className="col-sm">
-                            <h3>French Wine</h3>
+                            <a href = "/cultural-experiences/2">
+                            <h3>Indian Chai</h3>
                             <div className="culture-img">
                                 <img src={Indian} alt="Indian chai" />
                             </div>
+                            </a>
                         </div>
                         <div className="col-sm">
-                            <h3>Indian Chai</h3>
+                            <h3>French Wine</h3>
                             <div className="culture-img">
                                 <img src={French} alt="French Wine" />
                             </div>
