@@ -11,17 +11,17 @@
 */
 
 
-.bg-black {
-    background-color: #111111 !important;
-}
+.backGroundColorNav { 
+    background-color: #111111 !important; 
+} 
 
 .navLinks {
     color: white !important;
 }
     
 /* .navLinks:hover {
-    color: #1ABD9D !important; / *  will change color of text within the element on hover * /
-} */
+    color: #1ABD9D !important; 
+}  */
 
 .navDropDownTitle {
     color: white !important;
