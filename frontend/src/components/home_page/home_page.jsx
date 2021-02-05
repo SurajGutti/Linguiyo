@@ -12,11 +12,11 @@ class HomePage extends React.Component {
             <div>
                 <div className="intro container">
                     <div className="row">
-                        <div className="col-sm">
+                        <div className="col-6">
                             <div className="main-img">
                             </div>
                         </div>
-                        <div className="col-sm intro-right">
+                        <div className="col-6 intro-right">
                             <h2>Learn a new language and experience the culture!</h2>
                             <Link to="/languages-main" className="btn get-started">Get Started</Link>
                         </div>
@@ -37,29 +37,39 @@ class HomePage extends React.Component {
                     </div>
                 </div>
                 <div className="cultural-exp">
-                <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
+                    <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
                     <div className="row">
-                        <div className="col-sm">
-                            <a href = "/cultural-experiences/1">
-                            <h3>Turkish Coffee</h3>
-                            <div className="culture-img">
-                                <img src={Turkish} alt="turkish coffee" />
-                            </div>
+                        <div className="col-4">
+                            <a href="/cultural-experiences/1">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <p>Turkish Coffee</p>
+                                    </div>
+                                    <img className="card-body" src={Turkish} alt="turkish coffee" />
+                                </div>
                             </a>
                         </div>
-                        <div className="col-sm">
-                            <a href = "/cultural-experiences/2">
-                            <h3>Indian Chai</h3>
-                            <div className="culture-img">
-                                <img src={Indian} alt="Indian chai" />
-                            </div>
+                        <div className="col-4">
+                            <a href="/cultural-experiences/2">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3>Indian Chai</h3>
+                                    </div>
+                                    <div className="card-body">
+                                        <img src={Indian} alt="Indian chai" />
+                                    </div>
+                                </div>
                             </a>
                         </div>
-                        <div className="col-sm">
-                            <h3>French Wine</h3>
-                            <div className="culture-img">
-                                <img src={French} alt="French Wine" />
-                            </div>
+                        <div className="col-4">
+                            <a href="/cultural-experiences/3">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3>French Wine</h3>
+                                    </div>
+                                    <img className="card-body" src={French} alt="French Wine" />
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

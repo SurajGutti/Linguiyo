@@ -39,7 +39,7 @@ body{
 
 /* intro section */
 .intro{
-	height: 60rem;
+	height: 35rem;
 }
 
 
@@ -52,6 +52,7 @@ body{
 
 .intro-right h2{
 	color: #000000;
+	margin-top: ;
 }
 
 .intro-right .btn{
@@ -68,7 +69,7 @@ body{
 
 .main-img{
 	background-color: #C4C4C4;
-	height: 50rem;
+	height: 25rem;
 	padding: 2rem;
 	margin: 3rem 1rem 1rem 2rem;
 	border-radius: 5%;
@@ -97,14 +98,8 @@ body{
 
 .cultural-exp{
 	height: 31rem;
-	background-color: #FFDD55;
+	background-color: #020202;
 	color: #FFFFFF;
-}
-
-@media screen and (max-width:1400px) {
-    .cultural-exp{
-        height: 74rem;
-    }
 }
 
 
@@ -115,14 +110,25 @@ body{
 	font-weight: bolder;
 }
 
-.cultural-exp .col-sm{
-	background-color: #C4C4C4;
-	padding: 1rem;
-	text-align: center;
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin: 1rem;
+	height: 24rem;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-header{
 	color: black;
-	margin: 2rem;
-	height: 20rem;
-	border-radius: 10%;
+	background-color: #C4C4C4;
+	text-align: center;
+}
+
+.card-body{
+	background-color: #C4C4C4;
 }
 
 .culture-img{
@@ -161,7 +167,7 @@ body{
 /* Our Story */
 
 .our-story{
-	height: 25rem;
+	height: 30rem;
 	background-color: #020202;
 	color: white;
 	padding: 0rem 5rem 0rem 5rem;
@@ -169,7 +175,7 @@ body{
 
 .our-story h2{
 	text-align: center;
-	padding: 1rem;
+	padding: 2rem;
 	font-size: 35px;
 }
 
@@ -177,7 +183,7 @@ body{
 	padding: .5rem;
 	background-color: #1ABD9D;
 	color: #FFFFFF;
-	margin-top: 13rem;
+	margin-top: 18rem;
 	border: #000000 1px solid;
 	box-shadow: #FFFFFF 3px 3px;
 	font-weight: bolder;
@@ -193,6 +199,7 @@ body{
 .feedback-btn{
 	background-color: #1ABD9D;
 	padding: .5rem;
+	margin-top: 5rem;
 	color: #FFFFFF;
 	border: #000000 1px solid;
 	box-shadow: #FFFFFF 3px 3px;

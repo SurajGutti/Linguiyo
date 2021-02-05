@@ -105,7 +105,10 @@
   padding: 4px 10px;
  }
 
-
+.french-fourteen-img {
+    height: 200px !important;
+    width: 100%  !important;
+}
 
 @media screen and (max-width:768px){
     .vietnam_blog{

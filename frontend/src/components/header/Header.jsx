@@ -2,16 +2,15 @@ import React from 'react'
 import { Navbar, Nav, NavDropdown, Button, SplitButton } from 'react-bootstrap'
 import style from './header.module.css'
 import { Link } from 'react-router-dom';
-
-
+import logo from './header_images/Logo.png'
 
 export default function Header() {
     return (
         <div>
-            <Navbar variant="dark" bg="dark" sticky="top"  >
+            <Navbar className={style.backGroundColorNav} >
                 <Nav className="container-fluid" style={{ paddingLeft: 70, paddingRight: 70 }}>
                     <Nav.Item>
-                        <Navbar.Brand href="/"><img src="Logo.png" alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
+                        <Navbar.Brand href="/"><img src={logo} alt="Linguiyo Logo" style={{ "width": "110px", "height": "25px" }} /> </Navbar.Brand>
                     </Nav.Item>
                     <Nav.Item>
                         <div>
@@ -22,11 +21,11 @@ export default function Header() {
                                     title={`Languages`}
                                     href="/languages-main"
                                 >
-                                    <NavDropdown.Item href="/language-courses/hindi">Hindi</NavDropdown.Item>
-                                    <NavDropdown.Item href="/language-courses/french">French</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="/language-courses/spanish">Spanish</NavDropdown.Item>
                                     <NavDropdown.Item href="/language-courses/chinese">Chinese</NavDropdown.Item>
+                                    <NavDropdown.Item href="/language-courses/french">French</NavDropdown.Item>
+                                    {/* <NavDropdown.Divider /> */}
+                                    <NavDropdown.Item href="/language-courses/hindi">Hindi</NavDropdown.Item>
+                                    <NavDropdown.Item href="/language-courses/spanish">Spanish</NavDropdown.Item>
                                 </SplitButton>
                             ))}
                         </div>
@@ -40,8 +39,8 @@ export default function Header() {
                                     title={`Cultural Experiences`}
                                     href="/cultural-experience-main"
                                 >
-                                    <NavDropdown.Item href="/cultural-experiences/1">Turkish</NavDropdown.Item>
                                     <NavDropdown.Item href="/cultural-experiences/2">Indian</NavDropdown.Item>
+                                    <NavDropdown.Item href="/cultural-experiences/1">Turkish</NavDropdown.Item>
                                 </SplitButton>
                             ))}
                         </div>
