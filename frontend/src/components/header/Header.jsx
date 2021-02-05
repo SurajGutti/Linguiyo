@@ -23,7 +23,7 @@ export default function Header() {
                                 >
                                     <NavDropdown.Item href="/language-courses/chinese">Chinese</NavDropdown.Item>
                                     <NavDropdown.Item href="/language-courses/french">French</NavDropdown.Item>
-                                    <NavDropdown.Divider />
+                                    {/* <NavDropdown.Divider /> */}
                                     <NavDropdown.Item href="/language-courses/hindi">Hindi</NavDropdown.Item>
                                     <NavDropdown.Item href="/language-courses/spanish">Spanish</NavDropdown.Item>
                                 </SplitButton>
