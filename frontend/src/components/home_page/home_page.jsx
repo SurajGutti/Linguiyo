@@ -10,31 +10,19 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <div className="intro container">
-                    <div className="row">
-                        <div className="col-6">
-                            <div className="main-img">
-                            </div>
-                        </div>
-                        <div className="col-6 intro-right">
-                            <h2>Learn a new language and experience the culture!</h2>
-                            <Link to="/languages-main" className="btn get-started">Get Started</Link>
-                        </div>
-                    </div>
+                <div className="intro">
                 </div>
                 <div className="container">
                     <div className="second-section">
-                        <h2>How Linguiyo works</h2>
-                        <div>
-                            <h4>Register With Us</h4>
-                        </div>
-                        <div className="text-center">
-                            <h4>Start Learning from Anytime, Anywhere</h4>
-                        </div>
-                        <div className="text-right">
-                            <h4>Get Immersed in the Culture</h4>
+                        <h2>Learn a new language</h2>
+                        <h2>and experience the culture!</h2>
+                        <div className="mx-auto">
+                            <button className="home-btn">Start Learning</button>
                         </div>
                     </div>
+                </div>
+                <div className="why-section">
+
                 </div>
                 <div className="cultural-exp">
                     <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
