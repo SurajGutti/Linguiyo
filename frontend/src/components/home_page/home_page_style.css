@@ -36,10 +36,23 @@ body{
 	}
 }
 
+.home-btn{
+	background-color: #1ABD9D;
+	font-weight: bold;
+	margin: auto;
+	padding: 1rem;
+	color: black;
+	border-radius: 10%;
+	border: none;
+	display: flex;
+	margin-top: 1rem;
+}
+
 
 /* intro section */
 .intro{
-	height: 35rem;
+	height: 42rem;
+	background-color: gray;
 }
 
 
@@ -80,11 +93,12 @@ body{
 }
 
 .second-section h2 {
-	font-size: 25px;
+	font-size: 50px;
+	font-weight: 700;
 	text-align: center;
 	color: #000000;
 	font-weight: bolder;
-	padding-bottom: 2rem;
+	padding-bottom: .5rem;
 }
 
 .second-section h4 {
@@ -93,14 +107,19 @@ body{
 
 }
 
+/* Why Linguiyo */
+
+.why-section{
+	height: 42rem;
+	background-color: lightgray;
+}
+
 /* Cultural exp section */
 
 .cultural-exp{
 	height: 31rem;
-	background-color: #020202;
 	color: #FFFFFF;
 }
-
 
 .cultural-exp h2{
 	font-size: 25px;
