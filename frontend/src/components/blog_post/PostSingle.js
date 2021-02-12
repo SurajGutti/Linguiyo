@@ -1,6 +1,19 @@
 import React from 'react'
 import './PostSingle.css'
 import { Link } from 'react-router-dom';
+import one from './japan_images/1.jpeg';
+import two from './japan_images/2.jpeg';
+import three from './japan_images/3.jpeg';
+import four from './japan_images/4.jpeg';
+import five from './japan_images/5.jpeg';
+import six from './japan_images/6.jpeg';
+import seven from './japan_images/7.jpeg';
+import eight from './japan_images/8.jpeg';
+import nine from './japan_images/9.jpeg';
+import ten from './japan_images/10.jpeg';
+import eleven from './japan_images/11.jpeg';
+
+
 
 function PostSingle() {
     return (
@@ -23,57 +36,56 @@ function PostSingle() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={one} alt="one" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={two} alt="two" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
+                                <img src={three} alt="three" />
+                            </div>
 
+                        </div>
+
+                        <div className="col-md-4 p-1">
+                            <div className=" each_card">                          
+                                 <img src={four} alt="four" />
+                            </div>
+                        </div>
+                        <div className="col-md-4 p-1">
+                            <div className=" each_card">
+                                <img src={five} alt="five" />
+                        </div>
+
+                        </div>
+                        <div className="col-md-4  p-1">
+                            <div className=" each_card">
+                                <img src={six} alt="six" />
                             </div>
 
                         </div>
 
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-
+                                <img src={seven} alt="seven" />
                             </div>
 
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-
+                                <img src={eight} alt="eight" />
                             </div>
 
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-
-                            </div>
-
-                        </div>
-
-                        <div className="col-md-4 p-1">
-                            <div className=" each_card">
-
-                            </div>
-
-                        </div>
-                        <div className="col-md-4   p-1">
-                            <div className=" each_card">
-
-                            </div>
-
-                        </div>
-                        <div className="col-md-4  p-1">
-                            <div className=" each_card">
-
+                                <img src={nine} alt="nine" />
                             </div>
 
                         </div>
@@ -109,8 +121,8 @@ function PostSingle() {
 
                         </div>
                         <div className="col-md-6 p-3">
-                            <div className="p_right">
-
+                            <div className=".p_right img">
+                                <img src={ten} alt="ten" />
                             </div>
                         </div>
                     </div>
@@ -146,8 +158,8 @@ function PostSingle() {
 
                         </div>
                         <div className="col-md-6 p-3">
-                            <div className="p_right">
-
+                            <div className=".p_right img">
+                                <img src={eleven} alt="eleven" />
                             </div>
                             {/* <img src="" alt="article_page"/> */}
                         </div>
@@ -182,20 +194,15 @@ function PostSingle() {
                         </div>
                     </p>
 
-
-
-
-
                     <div className="row medias_">
                         <div>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-                            <span>O</span>
-
+                            <span><i className="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-twitter" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-linkedin" aria-hidden="true"></i></span>
+                            <span><i className="fa fa-link" aria-hidden="true"></i></span>
                         </div>
-
                     </div>
+
                     <div className="row justify-content-between d-flex medias_2">
 
                         <div>
@@ -231,7 +238,8 @@ function PostSingle() {
                                         <span className="ml-2">Comments O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span >1 <span className="text-danger"><i className="fa fa-heart" aria-hidden="true"></i> </span></span>
+
                                 </div>
 
                             </div>

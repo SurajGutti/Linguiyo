@@ -16,7 +16,7 @@ class Footer extends React.Component {
     render() {
         return (
 
-            <Container className='footer'>
+            <Container className='footer' fluid>
                 <Row className="footer-row">
                     <Col>
                         <Row>
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                         </Row>
                     </Col>
                     <Col className="footer-col-right" href="#sign up">
-                        <Button style={{ color:"white", height: "35px", background: "#1ABD9D", boxShadow: "5px 5px 3px rgba(255,255,255)"  }} outline >
+                        <Button style={{ color:"white", height: "35px", background: "#1ABD9D"}} outline >
                             Get Started
                         </Button>
                     </Col>

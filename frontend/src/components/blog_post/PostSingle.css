@@ -12,6 +12,10 @@
     min-height: 100vh !important;
     padding: 30px 35px;
 }
+.PostSingle .p_right img{
+    height: 384px;
+    width: 100%;
+}
 
 .blog_single .blog_inner_2{
     border: 1px solid rgba(0,0,0,0.1);
