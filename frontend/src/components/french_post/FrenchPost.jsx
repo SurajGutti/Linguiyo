@@ -194,7 +194,7 @@ export default function FrenchPost() {
                                 </div>
                                 <div className="col-md-6 p-3">
                                     <div>
-                                        <img src={fourteen} alt="fourteen"  height="160" width="500" />
+                                        <img src={fourteen} alt="fourteen" className="french-fourteen-img" />
                                     </div>
                                 </div>
                             </div>
