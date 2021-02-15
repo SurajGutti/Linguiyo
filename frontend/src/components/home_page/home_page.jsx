@@ -5,12 +5,14 @@ import './home_page_style.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Turkish from './home_images/1.JPG'
 import Indian from './home_images/2.jpg'
+import MainImg from './home_images/main.gif'
 import French from './home_images/3.jpg'
 class HomePage extends React.Component {
     render() {
         return (
             <div>
                 <div className="intro">
+                    <img src={MainImg} alt="main img" />
                 </div>
                 <div className="container">
                     <div className="second-section">
@@ -22,7 +24,11 @@ class HomePage extends React.Component {
                     </div>
                 </div>
                 <div className="why-section">
-
+                    <h3>Why Linguiyo?</h3>
+                    <div>
+                        <div className="circle"></div>
+                        <p>We offer <span className="teal-color">American Sign Language(ASL)</span> </p>
+                    </div>
                 </div>
                 <div className="cultural-exp">
                     <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
