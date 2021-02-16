@@ -104,6 +104,22 @@ body{
 
 .why-section li:first-child::marker {
 	font-size: 100px;
+	background-image: url("./home_images/Ellipse.png");
+}
+
+.list-section img{
+	width: 90px;
+	height: 90px;
+	border: 2px black solid;
+	border-radius: 50%;
+}
+
+
+.list-section p{
+	text-align: center;
+	vertical-align: 37px;
+	margin-left: 5rem;
+	display: inline-block;
 }
 
 

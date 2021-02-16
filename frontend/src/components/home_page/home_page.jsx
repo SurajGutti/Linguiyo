@@ -7,6 +7,7 @@ import Turkish from './home_images/1.JPG'
 import Indian from './home_images/2.jpg'
 import MainImg from './home_images/main.gif'
 import French from './home_images/3.jpg'
+import Ellipse from './home_images/Ellipse.png'
 class HomePage extends React.Component {
     render() {
         return (
@@ -27,13 +28,19 @@ class HomePage extends React.Component {
                     <h3>Why Linguiyo?</h3>
                     <div className="list-section">
                         <ul>
-                            <li>We offer <span className="teal-color">American Sign Language(ASL)</span> along with <span className="teal-color">12 Foreign Languages</span> and immersive <span className="teal-color">cultural experiences</span>!</li>
+                            <li>
+                                <img src={Ellipse} alt="ellipse" /><p>We offer <span className="teal-color">American Sign Language(ASL)</span> along with <span className="teal-color">12 Foreign Languages</span> and immersive <span className="teal-color">cultural experiences</span>!</p>
+                            </li>
                         </ul>
                         <ul>
-                            <li>You can start learning new languages from<span className="teal-color"> anytime, anywhere</span>!</li>
+                            <li>
+                                <p className="mr-5">You can start learning new languages from<span className="teal-color"> anytime, anywhere</span>!</p><img src={Ellipse} alt="ellipse" />
+                            </li>
                         </ul>
                         <ul className="pb-5">
-                            <li>Once you complete the basic course you can <span className="teal-color">form simple sentences </span>and have<span className="teal-color"> conversations</span>!</li>
+                            <li>
+                                <img src={Ellipse} alt="ellipse" /><p>Once you complete the basic course you can <span className="teal-color">form simple sentences </span>and have<span className="teal-color"> conversations</span>!</p>
+                            </li>
                         </ul>
                         <div className="mx-auto mt-5">
                             <button className="home-btn">Read More</button>
