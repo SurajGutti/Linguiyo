@@ -406,7 +406,7 @@ class HubPage extends React.Component {
 
 
                     {/* French */}
-                    <Link>
+                    <Link to="/posts/french_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -609,7 +609,7 @@ class HubPage extends React.Component {
 
 
                     {/* Learning Language */}
-                    <Link>
+                    <Link to="/posts/communication_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
