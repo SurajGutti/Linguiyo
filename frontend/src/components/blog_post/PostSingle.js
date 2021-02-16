@@ -54,14 +54,14 @@ function PostSingle() {
                         </div>
 
                         <div className="col-md-4 p-1">
-                            <div className=" each_card">                          
-                                 <img src={four} alt="four" />
+                            <div className=" each_card">
+                                <img src={four} alt="four" />
                             </div>
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
                                 <img src={five} alt="five" />
-                        </div>
+                            </div>
 
                         </div>
                         <div className="col-md-4  p-1">
