@@ -25,9 +25,19 @@ class HomePage extends React.Component {
                 </div>
                 <div className="why-section">
                     <h3>Why Linguiyo?</h3>
-                    <div>
-                        <div className="circle"></div>
-                        <p>We offer <span className="teal-color">American Sign Language(ASL)</span> </p>
+                    <div className="list-section">
+                        <ul>
+                            <li>We offer <span className="teal-color">American Sign Language(ASL)</span> along with <span className="teal-color">12 Foreign Languages</span> and immersive <span className="teal-color">cultural experiences</span>!</li>
+                        </ul>
+                        <ul>
+                            <li>You can start learning new languages from<span className="teal-color"> anytime, anywhere</span>!</li>
+                        </ul>
+                        <ul className="pb-5">
+                            <li>Once you complete the basic course you can <span className="teal-color">form simple sentences </span>and have<span className="teal-color"> conversations</span>!</li>
+                        </ul>
+                        <div className="mx-auto mt-5">
+                            <button className="home-btn">Read More</button>
+                        </div>
                     </div>
                 </div>
                 <div className="cultural-exp">
@@ -101,7 +111,7 @@ class HomePage extends React.Component {
                         </div>
                     </Carousel.Item>
                 </Carousel>
-            </div>
+            </div >
         )
     }
 }

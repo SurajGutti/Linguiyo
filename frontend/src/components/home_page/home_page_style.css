@@ -40,12 +40,15 @@ body{
 	background-color: #1ABD9D;
 	font-weight: bold;
 	margin: auto;
-	padding: 1rem;
+	padding: 1.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
 	color: black;
 	border-radius: 10%;
 	border: none;
 	display: flex;
-	margin-top: 1rem;
+	font-size: 20px;
+	margin-top: 2rem;
 }
 
 
@@ -54,29 +57,6 @@ body{
 	height: 42rem;
 }
 
-
-.intro-right{
-	font-size: 40px;
-	font-weight: bolder;
-	text-align: center;
-	margin: auto;
-}
-
-.intro-right h2{
-	color: #000000;
-}
-
-.intro-right .btn{
-	background-color: #1ABD9D;
-	margin-top: 10rem;
-	padding: 1rem;
-	color: #FFFFFF;
-	outline: 0;
-	border-radius: 10%;
-	box-shadow: lightgray 5px 5px;
-	border: 1px solid black;
-	font-weight: 700;
-}
 
 .main-img{
 	background-color: #C4C4C4;
@@ -111,20 +91,21 @@ body{
 	text-align: center;
 	font-size: 45px;
 	font-weight: 700;
+	padding-bottom: 4rem;
+	padding-top: 3rem;
 }
 
-.why-section p{
+
+.why-section li{
 	text-align: center;
 	font-size: 20px;
-	padding-top: 7rem;
+	vertical-align: top;
 }
 
-.circle{
-	background-color: #FFDD55;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
+.why-section li:first-child::marker {
+	font-size: 100px;
 }
+
 
 .teal-color{
 	color: #1ABD9D;

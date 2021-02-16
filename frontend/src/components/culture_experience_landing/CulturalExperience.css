@@ -66,8 +66,9 @@
 }
 
 .cultural_main .cards_ {
-    padding: 10px 130px !important;
-    margin-top:150px;
+    padding: 10px 200px!important;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .cultural_main .innerfade_ {
