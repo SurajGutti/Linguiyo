@@ -15,14 +15,17 @@ import eleven from './french_images/11.jpeg';
 import twelve from './french_images/12.jpeg';
 import thirteen from './french_images/13.jpeg';
 import fourteen from './french_images/14.jpeg';
+import german_2 from '../german_blog/assets/Indian-Chai-Images/german_2.webp';
+import german_1 from '../german_blog/assets/Indian-Chai-Images/german_1.webp';
+import MasalaChaiImage from '../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
 
 export default function FrenchPost() {
 
     return (
-        <div className="french_blog container-fluid">
+        <div className="french_blog hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
+                    <Link className="all-post" to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
@@ -104,20 +107,20 @@ export default function FrenchPost() {
                             French culture has a massive influence from Gallo-Roman, Celtics, and even the Franks Germanic people. In the Iron Age and Roman era, the area was commonly known as Gaul for centuries.
                         </p>
                     </div>
-                    
+
 
                     <div className="row p-0">
                         <div className="col-md-12 subhead p-0">
                             <h2>Language and religion </h2>
                         </div>
                         <p>
-                            French is the second most popular to learn as a second language behind English. The country's population has roughly 70 million residents and around 120 million students around the world learning French every year on average. French resident's religious beliefs are predominantly Catholic over half of the population declare themselves Roman Catholic. Other large religious groups are Islam, Judaism, and Buddhism with nearly 30 percent claiming no religion.                        
+                            French is the second most popular to learn as a second language behind English. The country's population has roughly 70 million residents and around 120 million students around the world learning French every year on average. French resident's religious beliefs are predominantly Catholic over half of the population declare themselves Roman Catholic. Other large religious groups are Islam, Judaism, and Buddhism with nearly 30 percent claiming no religion.
                         </p>
                         <p>
-                            The French stereotype of being stuck up or arrogant is often misinterpreted. They are a very proud nation who take pride in their heritage, nation, and history. 
+                            The French stereotype of being stuck up or arrogant is often misinterpreted. They are a very proud nation who take pride in their heritage, nation, and history.
                         </p>
                     </div>
-                            
+
                     <div className="row p-0">
                         <div className="col-md-12 subhead p-0">
                             <h2>French Literature</h2>
@@ -130,10 +133,10 @@ export default function FrenchPost() {
 
                         <div className="col-md-6 p-2">
                             <div>
-                                <img src={ten} alt="ten" height="190" width="500"/>
+                                <img src={ten} alt="ten" height="190" width="500" />
                             </div>
                         </div>
-                        
+
                         <div className="col-md-12 subhead p-0">
                             <h2>French Cuisine </h2>
                         </div>
@@ -147,74 +150,74 @@ export default function FrenchPost() {
 
                         <div className="col-md-3">
                             <div>
-                                <img src={eleven} alt="eleven" height="110" width="230"/>
+                                <img src={eleven} alt="eleven" height="110" width="230" />
                             </div>
                         </div>
                         <div className="col-md-3">
                             <div>
-                                <img src={twelve} alt="twelve" height="110" width="230"/>
+                                <img src={twelve} alt="twelve" height="110" width="230" />
                             </div>
                         </div>
                         <p>
                             Using heavy sauces and a focus on quality ingredients and plating French restaurants are sought after globally.
                         </p>
                         <p>
-                             French fries may not be French as the story goes. It was Thomas Jefferson who discovered the fried potatoes while serving as American Minister and brought the tasty treat back home with him to the states. 
+                            French fries may not be French as the story goes. It was Thomas Jefferson who discovered the fried potatoes while serving as American Minister and brought the tasty treat back home with him to the states.
                         </p>
 
-                            <div className="col-md-12 subhead p-0">
-                                <h2>Learning French </h2>
-                            </div>  
-                                <div className="col-md-6 p-0">
-                                    <p>
-                                        French is a romantic language with a musical sound to it. When spoken fluently it is almost like people sing to one another and also portray passion and sensuality that most languages do not have.
+                        <div className="col-md-12 subhead p-0">
+                            <h2>Learning French </h2>
+                        </div>
+                        <div className="col-md-6 p-0">
+                            <p>
+                                French is a romantic language with a musical sound to it. When spoken fluently it is almost like people sing to one another and also portray passion and sensuality that most languages do not have.
                                     </p>
-                                    <p>
-                                        It is a little more difficult for English speakers learning in comparison to Spanish for example, however, when I first started to 
+                            <p>
+                                It is a little more difficult for English speakers learning in comparison to Spanish for example, however, when I first started to
                                     </p>
-                                </div>
+                        </div>
 
-                                <div className="col-md-6 p-3">
-                                    <div>
-                                        <img src={thirteen} alt="thirteen"  height="200" width="500" />
-                                    </div>
-                                </div>
-                                <p>
-                                    learn French I focused on the sounds and pronunciation, rehearsing lines and reading even before I understood what the words meant. This gave me an idea of the sounds and ways I needed to move my tongue when speaking. It was hard at first but after much practice, patience, and error I got there in the end.
-                                </p>
-                            </div>
-                            <div className="row p-0">
-                                <div className="col-md-12 subhead p-0">
-                                    <h2>Tips for trips  </h2>
-                                </div> 
-                                <div className="col-md-6 p-0">
-                                    <p>
-                                        If you go to France you have to go to Paris and do the tourist side of your travel but I do recommend going to the Alps, witnessing the life and beauty of small French villages and going south towards Nice and Marseille. The southern region is gorgeous, hot, and has some of the best sailing and beaches in the world.
-                                    </p>
-                                </div>
-                                <div className="col-md-6 p-3">
-                                    <div>
-                                        <img src={fourteen} alt="fourteen" className="french-fourteen-img" />
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="col-md-6 p-3">
                             <div>
-                                
+                                <img src={thirteen} alt="thirteen" height="200" width="500" />
                             </div>
-                
+                        </div>
+                        <p>
+                            learn French I focused on the sounds and pronunciation, rehearsing lines and reading even before I understood what the words meant. This gave me an idea of the sounds and ways I needed to move my tongue when speaking. It was hard at first but after much practice, patience, and error I got there in the end.
+                                </p>
+                    </div>
+                    <div className="row p-0">
+                        <div className="col-md-12 subhead p-0">
+                            <h2>Tips for trips  </h2>
+                        </div>
+                        <div className="col-md-6 p-0">
+                            <p>
+                                If you go to France you have to go to Paris and do the tourist side of your travel but I do recommend going to the Alps, witnessing the life and beauty of small French villages and going south towards Nice and Marseille. The southern region is gorgeous, hot, and has some of the best sailing and beaches in the world.
+                                    </p>
+                        </div>
+                        <div className="col-md-6 p-3">
+                            <div>
+                                <img src={fourteen} alt="fourteen" className="french-fourteen-img" />
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
 
 
-                        
-   
+
+
+
 
                     <div className="row p-0">
                         <p>
                             If you want to immerse yourself into this beautiful language please click to enquire now.
-                        </p>  
+                        </p>
                     </div>
 
-                    
-                   
+
+
 
 
 
@@ -226,7 +229,7 @@ export default function FrenchPost() {
                             <span><i className="fa fa-link" aria-hidden="true"></i></span>
                         </div>
                     </div>
-                   
+
                     <div className="row justify-content-between d-flex medias_2">
 
                         <div>
@@ -239,15 +242,19 @@ export default function FrenchPost() {
 
 
                 </div>
-                    <div>
+
+                <div>
                     <div className="py-4 row justify-content-between px-3 d-flex">
                         <span>Recent Posts</span>
                         <span>See All</span>
                     </div>
 
-                    <div className="row p-0 images_">
+                    <div className="row p-0 images_ recent_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_2} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
@@ -255,14 +262,14 @@ export default function FrenchPost() {
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 14</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -270,21 +277,24 @@ export default function FrenchPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_1} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Vietnam - a hidden gem in Southeast Asia</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 24</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>15 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -292,21 +302,24 @@ export default function FrenchPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={MasalaChaiImage} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Know your superstitions when learning Korean</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span>Views 14</span>
-                                        <span className="ml-2">Comments O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 10</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O Likes</span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -323,10 +336,10 @@ export default function FrenchPost() {
 
                 </div>
 
-            
+
+            </div>
         </div>
-        </div>
-      
+
     )
 }
 

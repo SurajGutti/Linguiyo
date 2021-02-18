@@ -139,7 +139,7 @@ a:hover{
 }
 
 @media screen and (max-width:1400px) {
-    .hub-background .row{
+    .container-fluid .row{
         display: block;
     }
 }
