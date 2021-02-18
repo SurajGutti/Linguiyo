@@ -11,10 +11,14 @@ import seven from './korea_images/7.jpeg';
 import eight from './korea_images/8.jpeg';
 import nine from './korea_images/9.jpeg';
 import ten from './korea_images/10.png';
+import german_2 from '../german_blog/assets/Indian-Chai-Images/german_2.webp';
+import german_1 from '../german_blog/assets/Indian-Chai-Images/german_1.webp';
+import MasalaChaiImage from '../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
+
 
 function KoreaPost() {
     return (
-        <div className="korea_blog container-fluid hub-background">
+        <div className="korea_blog hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <Link className="all-post" to="/blog">All Posts</Link>
@@ -201,7 +205,7 @@ function KoreaPost() {
                             <span>0 comments</span>
                         </div>
 
-                        <span>1 O</span>
+                        <span >1 <span className="text-danger"><i className="fa fa-heart" aria-hidden="true"></i> </span></span>
                     </div>
 
 
@@ -212,9 +216,12 @@ function KoreaPost() {
                         <span>See All</span>
                     </div>
 
-                    <div className="row p-0 images_">
+                    <div className="row p-0 images_ recent_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_2} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
@@ -222,14 +229,14 @@ function KoreaPost() {
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 14</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -237,21 +244,24 @@ function KoreaPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_1} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Vietnam - a hidden gem in Southeast Asia</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 24</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>15 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -259,21 +269,24 @@ function KoreaPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={MasalaChaiImage} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Know your superstitions when learning Korean</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 10</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>

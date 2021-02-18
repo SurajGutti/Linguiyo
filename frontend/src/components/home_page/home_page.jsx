@@ -5,34 +5,45 @@ import './home_page_style.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Turkish from './home_images/1.JPG'
 import Indian from './home_images/2.jpg'
+import MainImg from './home_images/main.gif'
 import French from './home_images/3.jpg'
+import Ellipse from './home_images/Ellipse.png'
 class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <div className="intro container">
-                    <div className="row">
-                        <div className="col-6">
-                            <div className="main-img">
-                            </div>
-                        </div>
-                        <div className="col-6 intro-right">
-                            <h2>Learn a new language and experience the culture!</h2>
-                            <Link to="/languages-main" className="btn get-started">Get Started</Link>
-                        </div>
-                    </div>
+                <div className="intro">
+                    <img src={MainImg} alt="main img" />
                 </div>
                 <div className="container">
                     <div className="second-section">
-                        <h2>How Linguiyo works</h2>
-                        <div>
-                            <h4>Register With Us</h4>
+                        <h2>Learn a new language</h2>
+                        <h2>and experience the culture!</h2>
+                        <div className="mx-auto">
+                            <button className="home-btn">Start Learning</button>
                         </div>
-                        <div className="text-center">
-                            <h4>Start Learning from Anytime, Anywhere</h4>
-                        </div>
-                        <div className="text-right">
-                            <h4>Get Immersed in the Culture</h4>
+                    </div>
+                </div>
+                <div className="why-section">
+                    <h3>Why Linguiyo?</h3>
+                    <div className="list-section">
+                        <ul>
+                            <li>
+                                <img src={Ellipse} alt="ellipse" /><p>We offer <span className="teal-color">American Sign Language(ASL)</span> along with <span className="teal-color">12 Foreign Languages</span> and immersive <span className="teal-color">cultural experiences</span>!</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p className="mr-5">You can start learning new languages from<span className="teal-color"> anytime, anywhere</span>!</p><img src={Ellipse} alt="ellipse" />
+                            </li>
+                        </ul>
+                        <ul className="pb-5">
+                            <li>
+                                <img src={Ellipse} alt="ellipse" /><p>Once you complete the basic course you can <span className="teal-color">form simple sentences </span>and have<span className="teal-color"> conversations</span>!</p>
+                            </li>
+                        </ul>
+                        <div className="mx-auto mt-5">
+                            <button className="home-btn">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +118,7 @@ class HomePage extends React.Component {
                         </div>
                     </Carousel.Item>
                 </Carousel>
-            </div>
+            </div >
         )
     }
 }

@@ -8,7 +8,7 @@ import logo from '../shared_assets/short_logo.png'
 
 function CommunicationBlog() {
     return (
-        <div  style={{ backgroundImage: `url('${BooksImage}')` }} className="blog_german container-fluid hub-background">
+        <div className="blog_german container-fluid hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <span>All Posts</span>  <span><i className="fa fa-search"></i></span>
@@ -17,7 +17,7 @@ function CommunicationBlog() {
                 <div className="col-md-12 blog_inner_2">
 
                     <div className="row justify-content-between d-flex menu_ menu_up">
-                        <span><img className="logo_" src={logo} alt="check"/>Linguiyo Jun 5, 2020 2 min read</span>
+                        <span><img className="logo_" src={logo} alt="check" />Linguiyo Jun 5, 2020 2 min read</span>
                         <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
                     <div className="ty">
@@ -42,54 +42,54 @@ function CommunicationBlog() {
                     <div className="row">
                         <div className="col-md-12 subhead styled">
                             <h2>Improve Intellectual Capital </h2>
-                        </div> 
+                        </div>
                     </div>
 
                     <div>
                         <p>
-                        Learning language- a foreign one or improving your natal tongue- will significantly increase what is known as intellectual capital. Essentially, this means your communication and writing skills will be enhanced, making yourself more knowledgeable and intelligent. Imagine you are a hiring manager at a prestigious corporation. Which candidate would stick out to you most, someone with minimal language knowledge or someone with excellent grammar who is also bilingual? Language is a valuable tool to use for opening the door to opportunity, whether that be for a job or fostering your own personal growth in some way. Language is the easiest way to make yourself- mentally- more valuable.
+                            Learning language- a foreign one or improving your natal tongue- will significantly increase what is known as intellectual capital. Essentially, this means your communication and writing skills will be enhanced, making yourself more knowledgeable and intelligent. Imagine you are a hiring manager at a prestigious corporation. Which candidate would stick out to you most, someone with minimal language knowledge or someone with excellent grammar who is also bilingual? Language is a valuable tool to use for opening the door to opportunity, whether that be for a job or fostering your own personal growth in some way. Language is the easiest way to make yourself- mentally- more valuable.
                         </p>
                     </div>
 
                     <div className="row">
                         <div className="col-md-12 subhead styled">
                             <h2>Greater Cultural Understanding</h2>
-                        </div> 
+                        </div>
                     </div>
 
                     <div>
                         <p>
-                        Our Earth’s amazing cultures all across the globe are more blended than ever, thanks to modern technology and a human desire for connectivity. Learning a foreign language allows us to truly communicate and understand other people who come from backgrounds different than our own. Language can serve as a translator of worlds, offering the opportunity to connect on a level unheard of in the past. In a society often plagued by intolerance for misunderstandings, now is the perfect time for young adults (and children) to use language in the name of good.
+                            Our Earth’s amazing cultures all across the globe are more blended than ever, thanks to modern technology and a human desire for connectivity. Learning a foreign language allows us to truly communicate and understand other people who come from backgrounds different than our own. Language can serve as a translator of worlds, offering the opportunity to connect on a level unheard of in the past. In a society often plagued by intolerance for misunderstandings, now is the perfect time for young adults (and children) to use language in the name of good.
                         </p>
                     </div>
 
                     <div className="row">
                         <div className="col-md-12 subhead styled">
                             <h2>Higher Brain Performance</h2>
-                        </div> 
+                        </div>
                     </div>
 
                     <div>
                         <p>
-                        Did you know that learning language actually has cognitive benefits? Learning a foreign language and taking the time to improve your native language skills has been scientifically proven to increase brain performance. Bilingual individuals often have larger brains, better memory, heightened creativity, and overall higher brain functions. Learning language keeps your mind "on its toes" and, thus, more activated than individuals who have minimal language skills.
+                            Did you know that learning language actually has cognitive benefits? Learning a foreign language and taking the time to improve your native language skills has been scientifically proven to increase brain performance. Bilingual individuals often have larger brains, better memory, heightened creativity, and overall higher brain functions. Learning language keeps your mind "on its toes" and, thus, more activated than individuals who have minimal language skills.
                         </p>
                     </div>
 
                     <div className="row">
                         <div className="col-md-12 subhead styled">
                             <h2>Virtual Ways of Learning: The Future of Communication</h2>
-                        </div> 
+                        </div>
                     </div>
 
                     <div>
                         <p>
-                        Traditional methods of learning language include reading books or being taught by a teacher. Now, our digital world offers virtual ways of learning- straight from the palm of our hand. We live in an era where a foreign language can be learned through Linguiyo instead of visiting a classroom and undergoing hours of classes and homework assignments. The future of communication is virtual, and it will continue to evolve along with technology. How will you change the future of communication?
+                            Traditional methods of learning language include reading books or being taught by a teacher. Now, our digital world offers virtual ways of learning- straight from the palm of our hand. We live in an era where a foreign language can be learned through Linguiyo instead of visiting a classroom and undergoing hours of classes and homework assignments. The future of communication is virtual, and it will continue to evolve along with technology. How will you change the future of communication?
                         </p>
                     </div>
 
 
-                    
-                    
+
+
 
                     <p>
                         <div className="col-md-12 subhead h_2">
@@ -97,7 +97,7 @@ function CommunicationBlog() {
                         </div>
 
                         <div>
-                         
+
                             <p>
                                 If you want to immerse yourself into this beautiful language please click to <span className="text-danger link_">enquire now</span>.
                         </p>
