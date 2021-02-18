@@ -50,7 +50,7 @@ export default function Header() {
                     </Nav.Item>
                     <div>
                         <Button href="#login" style={{ color: "white", background: "#111111", borderWidth: "thin", borderColor: "white", marginRight: "10px", borderRadius: "12px" }} outline >Login</Button>
-                        <Button href="#signup"style={{ color: "white", background: "#1ABD9D", borderRadius: "12px"}} outline >Sign Up</Button>
+                        <Button href="#signup"style={{ color: "#111111", fontWeight: "bold", background: "#1ABD9D", borderRadius: "12px"}} outline >Sign Up</Button>
                     </div>
                 </Nav>
             </Navbar>
