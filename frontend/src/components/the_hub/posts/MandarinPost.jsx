@@ -12,15 +12,17 @@ import img9 from './images/mandarin/9.jpeg';
 import img10 from './images/mandarin/10.png';
 import img11 from './images/mandarin/11.jpeg';
 import img12 from './images/mandarin/12.jpeg';
+import german_2 from '../../german_blog/assets/Indian-Chai-Images/german_2.webp';
+import german_1 from '../../german_blog/assets/Indian-Chai-Images/german_1.webp';
+import MasalaChaiImage from '../../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
 
 
 function MandarinPost() {
     return (
-        <div className="blog_single container-fluid">
+        <div className="blog_single hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
-                    <Link to="/blog" class="ui basic button">All Posts</Link>
-                    <i class="search icon"></i>
+                    <Link className="all-post" to="/blog">All Posts</Link> <span><i className="fa fa-search"></i></span>
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
@@ -37,47 +39,47 @@ function MandarinPost() {
                     <div className="row p-0 images_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-                                <img src={img1}/>
+                                <img src={img1} />
                             </div>
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-                                <img src={img2}/>
+                                <img src={img2} />
                             </div>
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-                                <img src={img3}/>
+                                <img src={img3} />
                             </div>
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-                                <img src={img4}/>
+                                <img src={img4} />
                             </div>
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-                                <img src={img11}/>
+                                <img src={img11} />
                             </div>
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-                                <img src={img6}/>
+                                <img src={img6} />
                             </div>
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card">
-                                <img src={img7}/>
+                                <img src={img7} />
                             </div>
                         </div>
                         <div className="col-md-4   p-1">
                             <div className=" each_card">
-                                <img src={img8}/>
+                                <img src={img8} />
                             </div>
                         </div>
                         <div className="col-md-4  p-1">
                             <div className=" each_card">
-                                <img src={img9}/>
+                                <img src={img9} />
                             </div>
                         </div>
                     </div>
@@ -103,7 +105,7 @@ function MandarinPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img src={img10}/>
+                            <img src={img10} />
                         </div>
                     </div>
 
@@ -136,7 +138,7 @@ function MandarinPost() {
                             </p>
                         </div>
                         <div className="col-md-6 p-3">
-                            <img src={img11}/>
+                            <img src={img11} />
                         </div>
                     </div>
 
@@ -170,7 +172,7 @@ function MandarinPost() {
                         </div>
                         <div className="col-md-4 p-3" style={{ left: '10%' }}>
                             <div className="p_right">
-                                <img src={img12}/>
+                                <img src={img12} />
                             </div>
                         </div>
                     </div>
@@ -219,9 +221,12 @@ function MandarinPost() {
                         <span>See All</span>
                     </div>
 
-                    <div className="row p-0 images_">
+                    <div className="row p-0 images_ recent_">
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_2} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
@@ -229,14 +234,14 @@ function MandarinPost() {
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 14</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -244,21 +249,24 @@ function MandarinPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={german_1} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Vietnam - a hidden gem in Southeast Asia</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 24</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>15 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
@@ -266,21 +274,24 @@ function MandarinPost() {
                         </div>
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
+                                <div className="media_image">
+                                    <img src={MasalaChaiImage} alt="check" />
+                                </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
                                     <div className="title_2 ">
-                                        <h4>Rasode Mein Kon Tha?</h4>
+                                        <h4>Know your superstitions when learning Korean</h4>
                                     </div>
 
                                 </div>
-                                <div className="row justify-content-between d-flex px-4">
+                                <div className="row justify-content-between d-flex px-4 py-3 ttt">
 
                                     <div>
-                                        <span><i class="eye icon"></i> 14</span>
-                                        <span className="ml-2"><i class="comment outline icon"></i> O</span>
+                                        <span className="text-secondary"><i className="fa fa-eye" aria-hidden="true"></i> 10</span>
+                                        <span className="text-secondary ml-2" ><i className="fa fa-comment" aria-hidden="true"></i> O</span>
                                     </div>
 
-                                    <span>O <i class="heart outline icon"></i></span>
+                                    <span>10 <span className="text-danger"><i class="fa fa-heart"></i> </span></span>
                                 </div>
 
                             </div>
