@@ -53,3 +53,23 @@ button:focus {
 }
 /* borderRadius: "5%", width: "100px", height: "40px", */ 
 
+.login-signup-div{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.login-btn{
+    color: white;
+    background: #111111; 
+    border-width: thin;
+    border-color: white; 
+    margin-right: 10px; 
+    border-radius: 12px 
+}
+
+.signup-btn{
+    color: white;
+    background: #1ABD9D; 
+    border-radius: 12px 
+}

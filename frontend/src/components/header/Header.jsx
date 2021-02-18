@@ -48,9 +48,10 @@ export default function Header() {
                     <Nav.Item>
                         <Nav.Link className={style.navLinks} href="/blog">The Hub</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link className={style.navLinks} href="#sign up"> <Button style={{ color: "white", background: "#1ABD9D"}} outline >Sign Up</Button></Nav.Link>
-                    </Nav.Item>
+                    <div>
+                        <Button href="#login" style={{ color: "white", background: "#111111", borderWidth: "thin", borderColor: "white", marginRight: "10px", borderRadius: "12px" }} outline >Login</Button>
+                        <Button href="#signup"style={{ color: "white", background: "#1ABD9D", borderRadius: "12px"}} outline >Sign Up</Button>
+                    </div>
                 </Nav>
             </Navbar>
 
