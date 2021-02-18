@@ -19,6 +19,40 @@ time, mark, audio, video {
 	font-family: Arial, Helvetica, sans-serif;
 	vertical-align: baseline;
 }
+.home_cul .desc_container{
+
+}
+
+.home_cul .each_card_ .desc{
+	background-color:rgba(0,0,0,0.89) !important;
+	
+}
+.home_cul {
+	margin-top:120px !important;
+}
+.home_cul .btn__ .btn-success{
+	border:none;
+	color:rgba(0,0,0,0.89) !important;
+	font-style: normal;
+	padding:15px 23px !important;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+border-radius: 13px;
+	background-color: #1ABD9D !important;
+}
+.home_cul h2.his {
+font-size: 32px !important;
+font-weight: bolder !important;
+margin-bottom: -90px !important;
+color:rgba(0,0,0,0.89) !important;
+}
+.home_cul .each_card_ .desc h3{
+	text-align: center !important;
+	color: white !important;
+	margin-left:-20px !important;
+}
+
 
 body{
 	overflow-x: hidden;
@@ -30,10 +64,16 @@ body{
 	}
 }
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 	.container {
 		max-width: 1620px;
 	}
+	.home_cul h2.his {
+		font-size: 32px !important;
+		font-weight: bolder !important;
+		margin-bottom: 70px !important;
+		color:rgba(0,0,0,0.89) !important;
+		}
 }
 
 .home-btn{

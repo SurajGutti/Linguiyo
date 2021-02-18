@@ -8,6 +8,13 @@ import Indian from './home_images/2.jpg'
 import MainImg from './home_images/main.gif'
 import French from './home_images/3.jpg'
 import Ellipse from './home_images/Ellipse.png'
+import TurkishCoffeeImage from "./Turkish-images/4.JPG";
+import MasalaChaiImage from "./Indian-Chai-Images/6.jpeg";
+import CoffeeImage from "./Turkish-images/3.jpeg";
+import TurkishCoffeeImag from './assets/Turkish-images/4.JPG';
+import MasalaChaiImag from './assets/Indian-Chai-Images/2.jpg'
+import TestImage from './assets/Indian-Chai-Images/3.jpg'
+import CoffeeImag from './assets/Turkish-images/3.jpeg';
 class HomePage extends React.Component {
     render() {
         return (
@@ -47,6 +54,226 @@ class HomePage extends React.Component {
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className="container">
+                <div className="my_div cultural_main home_cul">
+            <div>
+              <h2 className="text-center his">Our Popular Courses</h2>
+            </div>
+            <div className="row d-flex justify-content-around cards_">
+              <div
+                onClick={() =>
+                  this.props.history.push("/language-courses/hindi")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${CoffeeImag}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc nnni">
+                      <h3> 
+                          Hindi Language</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              <div
+                onClick={() =>
+                  this.props.history.push("/language-courses/spanish")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${MasalaChaiImag}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc">
+                      <h3>
+                          Spanish Language</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              <div
+                onClick={() =>
+                  this.props.history.push("/language-courses/french")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${TurkishCoffeeImag}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc">
+                    <h3> 
+                          French Language</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div style={{marginBottom:120}} className="my_div cultural_main home_cul">
+            <div>
+              <h2 className="text-center his">Our Popular Experiences</h2>
+            </div>
+            <div className="row d-flex justify-content-around cards_">
+              <div
+                onClick={() =>
+                  this.props.history.push("/cultural-experiences/1")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${CoffeeImage}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc nnni">
+                      <h3>Turkish Coffee Experience</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              <div
+                onClick={() =>
+                  this.props.history.push("/cultural-experiences/2")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${MasalaChaiImage}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc">
+                      <h3>Indian tea & 
+Pakoda Experience</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              <div
+                onClick={() =>
+                  this.props.history.push("/cultural-experiences/2")
+                }
+                className="col-md-3 p-0"
+              >
+                <div
+                  style={{ backgroundImage: `url('${TurkishCoffeeImage}')` }}
+                  className="col-md-12 col-xs-12 each_card_"
+                >
+                  <div className="innerfade_"></div>
+                  <div className="row desc_container">
+                    <div className="desc">
+                      <h3>French Wine Experience</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex btn__ justify-content-center mt-4">
+                    <div className="btn btn-success">
+                        Start Learning
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div className="cultural-exp">
                     <a href="/cultural-experience-main"><h2>Cultural Experiences</h2></a>
                     <div className="row">
