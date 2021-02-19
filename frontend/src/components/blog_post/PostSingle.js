@@ -21,7 +21,7 @@ import MasalaChaiImage from '../german_blog/assets/German/Screen Shot 2021-01-25
 
 function PostSingle() {
     return (
-        <div className="blog_single container-fluid hub-background">
+        <div className="blog_single hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <Link className="all-post" to="/blog">All Posts</Link>
