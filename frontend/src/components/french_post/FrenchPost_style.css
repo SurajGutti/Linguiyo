@@ -45,7 +45,6 @@
 .each_2{
     border: 1px solid rgba(0,0,0,0.1) !important;
     min-height: 310px !important;
-    background-color:rgba(0,0,0,0.05) !important;
 }
 .blog_inner_2 .h_2{
     margin-left:-14px;

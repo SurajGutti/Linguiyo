@@ -5,6 +5,10 @@ import MasalaChaiImage from './assets/background.webp'
 import BackgroundImage from './assets/background.webp'
 import 'font-awesome/css/font-awesome.css';
 import logo from '../shared_assets/short_logo.png'
+import german_2 from '../german_blog/assets/Indian-Chai-Images/german_2.webp';
+import german_1 from '../german_blog/assets/Indian-Chai-Images/german_1.webp';
+import MasalaChaiImage2 from '../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
+
 
 function CommunicationBlog() {
     return (
@@ -141,7 +145,7 @@ function CommunicationBlog() {
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
                                 <div className="media_image">
-                                    <img src={MasalaChaiImage} alt="check" />
+                                    <img src={german_2} alt="check" />
                                 </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
@@ -166,7 +170,7 @@ function CommunicationBlog() {
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
                                 <div className="media_image">
-                                    <img src={MasalaChaiImage} alt="check" />
+                                    <img src={german_1} alt="check" />
                                 </div>
 
                                 <div className="row my-4 justify-content-center d-flex">
@@ -191,7 +195,7 @@ function CommunicationBlog() {
                         <div className="col-md-4 p-1">
                             <div className=" each_card each_2">
                                 <div className="media_image">
-                                    <img src={MasalaChaiImage} alt="check" />
+                                    <img src={MasalaChaiImage2} alt="check" />
                                 </div>
 
                                 <div className="row my-4 justify-content-center d-flex">

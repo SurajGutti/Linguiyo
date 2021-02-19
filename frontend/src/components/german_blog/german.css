@@ -55,23 +55,12 @@ img.logo_{
     margin-top: 80px;
 }
 
-.blog_german .each_card .col-md-4 {
-    padding: 10px 15px 10px 0 !important;
-    margin-top: 25px !important;
-}
-
 .blog_german .each_card {
-    
-    margin-top: 25px !important;
-
     min-height: 240px !important;
-    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .blog_german .each_2 {
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
     min-height: 310px !important;
-    background-color: white !important;
 }
 
 .blog_german .blog_inner_2 .h_2 {
