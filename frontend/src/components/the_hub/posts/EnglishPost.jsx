@@ -7,7 +7,7 @@ import img3 from './images/english/3.jpeg';
 import german_2 from '../../german_blog/assets/Indian-Chai-Images/german_2.webp';
 import german_1 from '../../german_blog/assets/Indian-Chai-Images/german_1.webp';
 import MasalaChaiImage from '../../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
-
+import logo from '../../shared_assets/short_logo.png'
 
 
 
@@ -22,11 +22,9 @@ function EnglishPost() {
 
                 <div className="col-md-12 blog_inner_2">
 
-                    <div className="row justify-content-between d-flex menu_">
-                        <span>Linguiyo . May 20, 2020 . 3 min read</span>
-                        <div class="ui small basic icon buttons">
-                            <button class="ui button"><i class="ellipsis vertical icon"></i></button>
-                        </div>
+                    <div className="row justify-content-between d-flex menu_ menu_up">
+                        <span ><img className="logo_" src={logo} alt="check" /> Linguiyo Jun 5, 2020 2 min read</span>
+                        <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
 
                     <h1>Learning English Culture while chilling on Netflix!</h1>

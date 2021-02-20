@@ -27,6 +27,8 @@ import TurkishPost from './components/turkish_post/TurkishPost';
 import RussianBlog from './components/russian_blog/russian_blog';
 import EnglishPost from './components/the_hub/posts/EnglishPost';
 import MandarinPost from './components/the_hub/posts/MandarinPost';
+import RasodePost from './components/the_hub/posts/RasodePost';
+import SecretPost from './components/the_hub/posts/SecretPost';
 import HindiPost from './components/the_hub/posts/HindiPost';
 import CommunicationBlog from './components/communication_blog/CommunicatonBlog';
 
@@ -52,6 +54,7 @@ function App() {
       <Route exact path="/language-courses/french" component={LanguageCourseFrench} />
       {/* use a wildcard below - /posts/:post-id */}
       <Route exact path="/blog" component={HubPage} />
+      <Route exact path="/posts/rasode_blog" component={RasodePost} />
       <Route exact path="/posts/japan_blog" component={PostSingle} />
       <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
       <Route exact path="/posts/italy_blog" component={ItalyPost} />
@@ -66,6 +69,7 @@ function App() {
       <Route exact path="/posts/korea_blog" component={KoreaPost} />
       <Route exact path="/posts/turkish_post" component={TurkishPost} />
       <Route exact path="/posts/punjabi_blog" component={PunjabiPost} />
+      <Route exact path="/posts/secret_blog" component={SecretPost} />
 
       <Route exact path="/languages-main" component={LanguagesMain} />
       <Route exact path="/posts/communication_blog" component={CommunicationBlog} />

@@ -1,6 +1,6 @@
 import React from 'react'
 import './german.css'
-import logo from '../shared_assets/short_logo.png'
+import logo from '../shared_assets/short_logo.png';
 import { Link } from 'react-router-dom';
 
 import MasalaChaiImage from './assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png'
@@ -15,6 +15,7 @@ import MasalaChaiImage9 from './assets/German/Screen Shot 2021-01-25 at 10.34.59
 import german_1 from './assets/Indian-Chai-Images/german_1.webp'
 import german_2 from './assets/Indian-Chai-Images/german_2.webp'
 import 'font-awesome/css/font-awesome.css';
+
 function GermanBlog() {
     return (
         <div className="blog_german hub-background">

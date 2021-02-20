@@ -16,23 +16,46 @@
 .blog_single .blog_inner_2 h1{
  font-weight: bolder;
  font-size: 26px;
- margin-left: -15px !important;
 }
+
+.blog_single .blog_inner_2 .m-0{
+    margin-left: 0 !important;
+}
+
+.px-3{
+    padding: 26px 12px !important;
+}
+
 .blog_single .blog_inner_2 p{
     padding: 0 !important;
     font-size: 18px;
     line-height: 1.4em;
     margin-top: 20px;
     color: rgba(0,0,0,0.7);
-   }
-   .blog_single .blog_inner_2 .subhead{
+}
+
+.secret_blog .blog_inner_2 p {
+    margin-top: 30px;
+}
+
+.blog_single .blog_inner_2 .subhead{
     font-size: 20px;
     margin-top: 50px;
     font-weight: bolder;
-   }
+}
+
+.blog_single .blog_inner_2 .subhead2{
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
 
 .blog_single .blog_inner_2 .menu_{
  padding: 26px 0px !important;
+}
+.react-player{
+    height: 30rem;
+    margin: 2rem 0rem 7rem 0rem;
 }
 .blog_single .blog_inner_2 .images_{
     margin-top:80px;
@@ -73,6 +96,7 @@
 
 .blog_single .blog_inner_2 .p_right{
     height:450px;
+    background-color: rgba(0,0,0,0.1) !important;
  }
  .blog_single .blog_inner_2 .medias_{
      border-top: 1px solid rgba(0,0,0,0.14);
