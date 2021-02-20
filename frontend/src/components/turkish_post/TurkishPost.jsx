@@ -15,10 +15,12 @@ import eleven from './turkish_images/11.jpg';
 import german_2 from '../german_blog/assets/Indian-Chai-Images/german_2.webp';
 import german_1 from '../german_blog/assets/Indian-Chai-Images/german_1.webp';
 import MasalaChaiImage from '../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
+import logo from '../shared_assets/short_logo.png';
+
 
 function TurkishPost() {
     return (
-        <div className="turkish_blog container-fluid hub-background">
+        <div className="turkish_blog hub-background">
             <div className="col-md-12  blog_inner">
                 <div className="row justify-content-between d-flex menu_1">
                     <Link className="all-post" to="/blog">All Posts</Link>
@@ -27,9 +29,9 @@ function TurkishPost() {
 
                 <div className="col-md-12 blog_inner_2">
 
-                    <div className="row justify-content-between d-flex menu_">
-                        <span>Linguiyo Jun 5, 2020 2 min read</span>
-                        <span>Menu</span>
+                    <div className="row justify-content-between d-flex menu_ menu_up">
+                        <span ><img className="logo_" src={logo} alt="check" /> Linguiyo Jun 5, 2020 2 min read</span>
+                        <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
 
                     <h1>Turkish culture, what a delight!</h1>

@@ -31,7 +31,7 @@ class HubPage extends React.Component {
                     </div>
 
                     {/* Raside Mein Kon Tha */}
-                    <Link>
+                    <Link to="/posts/rasode_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
@@ -649,7 +649,7 @@ class HubPage extends React.Component {
 
 
                     {/* 5 Secrets */}
-                    <Link>
+                    <Link to="/posts/secret_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">

@@ -1,6 +1,7 @@
 import React from 'react'
 import './blogPost.css'
 import { Link } from 'react-router-dom';
+import logo from '../../shared_assets/short_logo.png'
 import img1 from './images/mandarin/1.jpeg';
 import img2 from './images/mandarin/2.jpeg';
 import img3 from './images/mandarin/3.jpeg';
@@ -26,12 +27,9 @@ function MandarinPost() {
                 </div>
 
                 <div className="col-md-12 blog_inner_2">
-
-                    <div className="row justify-content-between d-flex menu_">
-                        <span>Linguiyo . May 17, 2020 . 3 min read</span>
-                        <div class="ui small basic icon buttons">
-                            <button class="ui button"><i class="ellipsis vertical icon"></i></button>
-                        </div>
+                    <div className="row justify-content-between d-flex menu_ menu_up">
+                        <span ><img className="logo_" src={logo} alt="check" /> Linguiyo Jun 5, 2020 2 min read</span>
+                        <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
 
                     <h1>Mandarin - the language of the future</h1>

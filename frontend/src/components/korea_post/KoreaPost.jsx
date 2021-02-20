@@ -1,5 +1,4 @@
 import React from 'react'
-import './KoreaPost_style.css'
 import { Link } from 'react-router-dom';
 import one from './korea_images/1.jpg';
 import two from './korea_images/2.jpeg';
@@ -14,6 +13,7 @@ import ten from './korea_images/10.png';
 import german_2 from '../german_blog/assets/Indian-Chai-Images/german_2.webp';
 import german_1 from '../german_blog/assets/Indian-Chai-Images/german_1.webp';
 import MasalaChaiImage from '../german_blog/assets/German/Screen Shot 2021-01-25 at 10.33.05 AM.png';
+import logo from '../shared_assets/short_logo.png'
 
 
 function KoreaPost() {
@@ -27,9 +27,9 @@ function KoreaPost() {
 
                 <div className="col-md-12 blog_inner_2">
 
-                    <div className="row justify-content-between d-flex menu_">
-                        <span>Linguiyo Jun 5, 2020 2 min read</span>
-                        <span>Menu</span>
+                    <div className="row justify-content-between d-flex menu_ menu_up">
+                        <span ><img className="logo_" src={logo} alt="check" /> Linguiyo Jun 5, 2020 2 min read</span>
+                        <span><i class="fa fa-ellipsis-v"></i></span>
                     </div>
 
                     <h1>Know your superstitions when learning Korean</h1>
