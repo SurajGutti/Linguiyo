@@ -10,6 +10,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import CulturalExperience from './components/culture_experience_landing/CulturalExperience';
 import PostSingle from './components/blog_post/PostSingle';
 import VietnamPost from './components/vietnam_post/VietnamPost';
+import PortugalPost from './components/portugal_post/PortugalPost';
 import ItalyPost from './components/italy_post/ItalyPost';
 import FrenchPost from './components/french_post/FrenchPost';
 import KoreaPost from './components/korea_post/KoreaPost';
@@ -57,6 +58,7 @@ function App() {
       <Route exact path="/posts/rasode_blog" component={RasodePost} />
       <Route exact path="/posts/japan_blog" component={PostSingle} />
       <Route exact path="/posts/vietnam_blog" component={VietnamPost} />
+      <Route exact path="/posts/portugal_blog" component={PortugalPost} />
       <Route exact path="/posts/italy_blog" component={ItalyPost} />
       <Route exact path="/posts/french_blog" component={FrenchPost} />
       <Route exact path="/posts/german_blog" component={GermanBlog} />

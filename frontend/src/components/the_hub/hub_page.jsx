@@ -203,7 +203,7 @@ class HubPage extends React.Component {
 
 
                     {/* Portugal */}
-                    <Link>
+                    <Link to="/posts/portugal_blog">
                         <div className="blog-content">
                             <div className="row outline">
                                 <div className="col-md">
