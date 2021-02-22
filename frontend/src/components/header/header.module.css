@@ -1,27 +1,17 @@
-/*
-.navLinks {
-    background-color:white;
-    color: #1ABD9D;
-}
-    
-.navLinks:hover {
-    background-color:#1ABD9D; 
-    color: white;
-}
-*/
-
-
 .backGroundColorNav { 
     background-color: #111111 !important; 
 } 
+
+
+.backGroundColorNav button{
+    color: white !important;
+}
+
 
 .navLinks {
     color: white !important;
 }
     
-/* .navLinks:hover {
-    color: #1ABD9D !important; 
-}  */
 
 .navDropDownTitle {
     color: white !important;
