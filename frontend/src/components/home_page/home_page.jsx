@@ -55,11 +55,11 @@ class HomePage extends React.Component {
 
 
         <div className="container">
-          <div className="my_div cultural_main home_cul">
+          <div className="my_div cultural_main home_cul exp__">
             <div>
               <h2 className="text-center his">Our Popular Courses</h2>
             </div>
-            <div className="row d-flex justify-content-around cards_">
+            <div className="row d-flex justify-content-around cards_ mlml">
               <div
                 onClick={() =>
                   this.props.history.push("/language-courses/hindi")
