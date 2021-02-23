@@ -61,16 +61,23 @@ body{
 	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
 	.container {
 		max-width: 1620px;
 	}
+	.exp__{
+		margin-top: 360px !important;
+	}
+	/* .home_cul .mlml{
+		margin-top:120px !important;
+	} */
 	.home_cul h2.his {
 		font-size: 32px !important;
 		font-weight: bolder !important;
-		margin-bottom: 70px !important;
+		
+		margin-bottom: 30px !important;
 		color:rgba(0,0,0,0.89) !important;
-		}
+	}
 }
 
 .home-btn{

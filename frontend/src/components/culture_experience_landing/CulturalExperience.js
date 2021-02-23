@@ -29,7 +29,7 @@ function CulturalExperience(props) {
                 <EachCulture image={MasalaChaiImage} title=" Masala Chai and Pakoda the Indian Way" price={15} description="Learn the intricacies of the preparation of Indian food & some of India’s best-known dishes by taking part in a fun electronic class."/>    */}
             </div>
 
-            <div className="row d-flex justify-content-around cards_">
+            <div className="row d-flex justify-content-around cards_ mlk_">
 
                 <div onClick={()=> props.history.push('/cultural-experiences/1')} className="col-md-3 p-0">
                     <div style={{ backgroundImage: `url('${CoffeeImage}')` }} className="col-md-12 col-xs-12 each_card_">
