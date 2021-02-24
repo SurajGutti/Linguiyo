@@ -54,14 +54,6 @@ class LanguageCourseChinese extends React.Component{
                                 <div class="center aligned header" style={{marginBottom: '20px'}}>Meet Your Language Embassador</div>
                                 <div class="center aligned header" style={{marginBottom: '20px'}}>Priya Ahulwaliya</div>
                                 <div class="center aligned description">
-                                    {/* <div class="meta" style={{marginBottom: '20px'}}>
-                                        <i class="linkedin in icon"></i>
-                                        <span class="date">priya-ahluwalia-59101423</span><br/>
-                                        <i class="envelope icon"></i>
-                                        <span class="date">priyahluwalia@gmail.com</span><br/>
-                                        <i class="phone icon"></i>
-                                        <span class="date">415.802.5001</span><br/>
-                                    </div> */}
                                 </div>
                                 <div class="center aligned description" style={{marginBottom: '20px'}}>
                                     Serial entrepreneur, CEO @ Linguiyo, Chief Operating Officer @ PlateRate, Director of Operations @ CPIC Global, Professor, Artist
