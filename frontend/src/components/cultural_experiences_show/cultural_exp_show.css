@@ -5,11 +5,12 @@
     padding-bottom: 50px;
 }
 
-.carousel{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 30px auto;
+.turkish-img{
+    width: 80%;
+}
+
+.indian-img{
+    width: 80%;
 }
 
 .about-teacher-section{

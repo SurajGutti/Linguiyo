@@ -1,24 +1,19 @@
 import React from 'react';
-import Image1 from './assets/1.JPG';
-import Image2 from './assets/2.jpg';
-import Image3 from './assets/3.jpeg';
-import Image4 from './assets/4.JPG';
-import Image6 from './assets/6.jpg';
-import Image7 from './assets/7.png';
+import Image1 from './assets/turkish-main-img.PNG';
 import TeacherImage from './assets/5.jpg';
 import './cultural_exp_show.css';
 
-class CulturalExpShow extends React.Component{
-    constructor(props){
+class CulturalExpShow extends React.Component {
+    constructor(props) {
         super(props);
     }
-     //from Sunkanmi:  this is to make sure the page scroll to the top when navigated to it
-     componentDidMount(){
-        window.scrollTo(0,0)
+    //from Sunkanmi:  this is to make sure the page scroll to the top when navigated to it
+    componentDidMount() {
+        window.scrollTo(0, 0)
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 <div className="about-section">
                     <div className="cultexp-title">Turkish Coffee Fortune Reading</div>
@@ -27,16 +22,8 @@ class CulturalExpShow extends React.Component{
                     reading is an authentic tradition dating back to the Ottoman
                     empire of the 1600s. After drinking this sweet, espresso-like coffee,
                     it is customary to read one's fortune from the remaining coffee grinds.</div>
-                    <div className="carousel">
-                        <div className="slider">
-                            <img src={Image1} className="slide" id="slide-1"></img>
-                            <img src={Image2} className="slide" id="slide-2"></img>
-                            <img src={Image3} className="slide" id="slide-3"></img>
-                            <img src={Image4} className="slide" id="slide-4"></img>
-                            <img src={TeacherImage} className="slide" id="slide-5"></img>
-                            <img src={Image6} className="slide" id="slide-6"></img>
-                            <img src={Image7} className="slide" id="slide-7"></img>
-                        </div>
+                    <div className="turkish-img">
+                        <img src={Image1}></img>
                     </div>
                 </div>
                 <div className="about-teacher-section">
@@ -69,13 +56,13 @@ class CulturalExpShow extends React.Component{
                         <div className="cultxp-teacher-bio-container">
                             <img src={TeacherImage} className="teacher-circle-img" />
                             <div className="cultxp-teacher-title">Meet your host</div>
-                            <div className="cultxp-teacher-bio">I'm Uluç Ülgen, the 
-                            host of "The Turkish Coffee Fortune Reading." In the last 
-                            4 years, over 2,000 guests have visited my East Village 
-                            apartment for a cup of authentic Turkish Coffee followed 
-                            by a personalized fortune read from their coffee grounds! 
-                            The project has earned coverage in publications such as 
-                            the New York Post, The Paris Review, and National Public Radio. 
+                            <div className="cultxp-teacher-bio">I'm Uluç Ülgen, the
+                            host of "The Turkish Coffee Fortune Reading." In the last
+                            4 years, over 2,000 guests have visited my East Village
+                            apartment for a cup of authentic Turkish Coffee followed
+                            by a personalized fortune read from their coffee grounds!
+                            The project has earned coverage in publications such as
+                            the New York Post, The Paris Review, and National Public Radio.
                             I’m so excited to bring this experience to you online!</div>
                         </div>
                         <div className="book-now-container">
