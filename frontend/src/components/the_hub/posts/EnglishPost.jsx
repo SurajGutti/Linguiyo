@@ -30,17 +30,17 @@ function EnglishPost() {
                     <h1>Learning English Culture while chilling on Netflix!</h1>
 
                     <div className="row p-0 images_">
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={img1} />
                             </div>
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={img2} />
                             </div>
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={img3} />
                             </div>

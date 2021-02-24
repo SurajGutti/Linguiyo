@@ -26,7 +26,7 @@ class HubPage extends React.Component {
         return (
             <div className="hub-background container-fluid">
                 <div className="col-md-12  blog-inner">
-                    <div className="row justify-content-between d-flex menu_1">
+                    <div className="row justify-content-between d-flex menu_2">
                         <Link className="all-post" to="/blog">All Posts</Link>  <span>Search</span>
                     </div>
 

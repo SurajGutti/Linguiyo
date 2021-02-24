@@ -40,56 +40,56 @@ function PortugalPost() {
                     </h1>
 
                     <div className="row p-0 images_">
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={one} alt="one" />
                             </div>
 
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={two} alt="two" />
                             </div>
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={three} alt="three" />
                             </div>
 
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={four} alt="four" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={five} alt="five" />
                             </div>
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={six} alt="six" />
                             </div>
 
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={seven} alt="seven" />
                             </div>
 
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={eight} alt="eight" />
                             </div>
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={nine} alt="nine" />
                             </div>
@@ -99,10 +99,10 @@ function PortugalPost() {
 
                     <div>
                         <p>
-                             I fell in love with Portugal when I first visited years ago when I was just 17 years old. I went back last year and spent a few weeks on the beaches of Faro. What an amazing paradise this city and country is. The sea and surf is amazing, the people are friendly, and the architecture and food is full of color and taste.
+                            I fell in love with Portugal when I first visited years ago when I was just 17 years old. I went back last year and spent a few weeks on the beaches of Faro. What an amazing paradise this city and country is. The sea and surf is amazing, the people are friendly, and the architecture and food is full of color and taste.
                         </p>
                         <p>
-                             If you want to visit a country with incredible golf courses and lifestyle than look no further than Portugal. The language is exotic and exciting to learn just like getting to know the people and culture.
+                            If you want to visit a country with incredible golf courses and lifestyle than look no further than Portugal. The language is exotic and exciting to learn just like getting to know the people and culture.
                         </p>
                     </div>
 
@@ -112,7 +112,7 @@ function PortugalPost() {
                         </div>
                         <div className="col-md-6">
                             <p>
-                                Portuguese is spoken in 8 independent countries most commonly known nations are of course Portugal and Brazil. It is the native tongue of Angola, Cape Verde, and East Timor respectively.                            
+                                Portuguese is spoken in 8 independent countries most commonly known nations are of course Portugal and Brazil. It is the native tongue of Angola, Cape Verde, and East Timor respectively.
                             </p>
                             <div>
                                 <p></p>
@@ -148,12 +148,12 @@ function PortugalPost() {
                         <div className="col-md-12 subhead">
                             <h2>Patience, practice, and repetition </h2>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <p>
-                                Portuguese also have two verbs that mean to be. To be in English is known and universal in the language but in Portuguese, they have estar and ser. Ser is unchanging and permanent whereas estar is used for weather or a mood that can change and is temporary.                             
+                                Portuguese also have two verbs that mean to be. To be in English is known and universal in the language but in Portuguese, they have estar and ser. Ser is unchanging and permanent whereas estar is used for weather or a mood that can change and is temporary.
                             </p>
-                      
+
                             <div className="col-md-12 subhead p-0">
                                 <h2>Forget about pride!</h2>
                             </div>
@@ -162,10 +162,10 @@ function PortugalPost() {
                                     Watching movies in Portuguese and TV shows that I am very familiar with helped me a lot while learning Portuguese. Especially the pronunciation and tone when speaking this beautiful language.
                                 </p>
                                 <p>
-                                    Don’t be afraid to speak and make mistakes. Forget about pride and wanting to do everything perfectly. 
+                                    Don’t be afraid to speak and make mistakes. Forget about pride and wanting to do everything perfectly.
                                 </p>
                                 <p className="col-md-12">
-                                     The only way you will ever get perfect at speaking Portuguese or any language is by making thousands of mistakes because you have the confidence to practice and speak even when you don’t know.
+                                    The only way you will ever get perfect at speaking Portuguese or any language is by making thousands of mistakes because you have the confidence to practice and speak even when you don’t know.
                                 </p>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ function PortugalPost() {
                             If you want to immerse yourself into this beautiful language please click to <span className="text-danger link_">enquire now</span>.
                         </p>
                     </div>
-                   
+
 
                     <div className="row medias_">
                         <div>

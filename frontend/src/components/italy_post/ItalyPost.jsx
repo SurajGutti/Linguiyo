@@ -36,58 +36,58 @@ export default function ItalyPost() {
                     <h1>Passion, Love &and Class, Welcome to Italy</h1>
 
                     <div className="row p-0 images_">
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={one} alt="one" />
                             </div>
 
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={two} alt="two" />
                             </div>
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={three} alt="three" />
                             </div>
 
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={four} alt="four" />
                             </div>
 
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={five} alt="five" />
                             </div>
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={six} alt="six" />
                             </div>
 
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={seven} alt="seven" />
                             </div>
 
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={eight} alt="eight" />
                             </div>
 
 
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={nine} alt="nine" />
                             </div>

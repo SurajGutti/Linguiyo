@@ -40,49 +40,49 @@ function RussianBlog() {
 
                     
                     <div className="row p-0 d-flex justify-content-between images_">
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage2} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage3} alt="" />
                             </div>
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage4} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage5} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage6} alt="" />
                             </div>
                         </div>
 
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage7} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage8} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={MasalaChaiImage9} alt="" />
                             </div>

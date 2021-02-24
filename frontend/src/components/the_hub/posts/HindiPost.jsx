@@ -37,47 +37,47 @@ function HindiPost() {
                     <h1>Mandarin - the language of the future</h1>
 
                     <div className="row p-0 images_">
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={img1} />
                             </div>
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={img2} />
                             </div>
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={img3} />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={img4} />
                             </div>
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={img5} />
                             </div>
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={img6} />
                             </div>
                         </div>
-                        <div className="col-md-4 p-1">
+                        <div className="col-md-4 p-2">
                             <div className=" each_card">
                                 <img src={img7} />
                             </div>
                         </div>
-                        <div className="col-md-4   p-1">
+                        <div className="col-md-4   p-2">
                             <div className=" each_card">
                                 <img src={img8} />
                             </div>
                         </div>
-                        <div className="col-md-4  p-1">
+                        <div className="col-md-4  p-2">
                             <div className=" each_card">
                                 <img src={img9} />
                             </div>

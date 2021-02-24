@@ -1,11 +1,6 @@
 import React from 'react';
 import TeacherImage from './2nd_assets/1.jpeg';
-import Image2 from './2nd_assets/21.jpg';
-import Image3 from './2nd_assets/2.jpeg';
-import Image4 from './2nd_assets/3.jpg';
-import Image6 from './2nd_assets/41.jpg';
-import Image7 from './2nd_assets/52.jpg';
-import Image1 from './2nd_assets/6.jpeg';
+import Image1 from './2nd_assets/indian-main-img.PNG';
 import './cultural_exp_show.css';
 
 class CulturalExpShow extends React.Component {
@@ -13,8 +8,8 @@ class CulturalExpShow extends React.Component {
         super(props);
     }
     //from Sunkanmi:  this is to make sure the page scroll to the top when navigated to it
-    componentDidMount(){
-        window.scrollTo(0,0)
+    componentDidMount() {
+        window.scrollTo(0, 0)
     }
 
     render() {
@@ -23,21 +18,13 @@ class CulturalExpShow extends React.Component {
                 <div className="about-section">
                     <div className="cultexp-title">Indian Masala Chai & Pakoda Experience</div>
                     <div className="cultexp-price">Online Experience Hosted by Neha!</div>
-                    <div className="cultexp-description">Learn the intricacies of 
-                    preparing India’s most loved dish by taking part in a fun class. 
-                    You will learn to make an authentic masala chai and some 
-                    mouth-watering pakodas. Come and immerse yourself into Indian 
+                    <div className="cultexp-description">Learn the intricacies of
+                    preparing India’s most loved dish by taking part in a fun class.
+                    You will learn to make an authentic masala chai and some
+                    mouth-watering pakodas. Come and immerse yourself into Indian
                     culture and food!</div>
-                    <div className="carousel">
-                        <div className="slider">
-                            <img src={Image4} className="slide" id="slide-1"></img>
-                            <img src={Image2} className="slide" id="slide-2"></img>
-                            <img src={Image3} className="slide" id="slide-3"></img>
-                            <img src={Image1} className="slide" id="slide-4"></img>
-                            <img src={TeacherImage} className="slide" id="slide-5"></img>
-                            <img src={Image6} className="slide" id="slide-6"></img>
-                            <img src={Image7} className="slide" id="slide-7"></img>
-                        </div>
+                    <div className="indian-img">
+                        <img src={Image1}></img>
                     </div>
                 </div>
                 <div className="about-teacher-section">
@@ -45,18 +32,18 @@ class CulturalExpShow extends React.Component {
                         <div className="cultxp-extra-info-container">
                             <div className="extra-info-title">What do we do</div>
                             <div className="extra-info-desc">
-                                In this experience we will cook authentic masala 
+                                In this experience we will cook authentic masala
                                 chai and vegetable pakoras.
                             </div>
                         </div>
                         <div className="cultxp-extra-info-container">
                             <div className="extra-info-title">What do I bring?</div>
-                            <div className="extra-info-desc">Pots and pans, 
+                            <div className="extra-info-desc">Pots and pans,
                             <br></br>
-                            <br></br>
+                                <br></br>
                             For Pakoras
                             <br></br>
-                            <br></br>
+                                <br></br>
                             - Any oil for frying (I prefer vegetable oil)
                             <br></br>
                             - Chickpea flour
@@ -65,21 +52,21 @@ class CulturalExpShow extends React.Component {
                             <br></br>
                             - Baking powder
                             <br></br>
-                            - Ground spices 
+                            - Ground spices
                             <br></br>
                             - Vegetables of your choice
                             <br></br>
-                            <br></br>
+                                <br></br>
                             For tea
                             <br></br>
-                            <br></br>
-                            - Water 
+                                <br></br>
+                            - Water
                             <br></br>
                             - Milk
                             <br></br>
-                            - Loose tea 
+                            - Loose tea
                             <br></br>
-                            - Sugar 
+                            - Sugar
                             <br></br>
                             -Cardamom (if you want extra flavor)
 </div>
